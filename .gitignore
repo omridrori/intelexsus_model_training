@@ -1,0 +1,4 @@
+# Ignore data, models, and sandbox directories
+data/
+models/
+sandbox/ 

@@ -1,0 +1,3516 @@
+{
+  "sanskrit": {
+    "directory": "sanskrit",
+    "total_files": 7,
+    "total_records": 132943,
+    "files": {
+      "00_sanskrit_1.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_1.jsonl",
+        "total_records": 18830,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 5
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 10.7
+          }
+        }
+      },
+      "00_sanskrit_2.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_2.jsonl",
+        "total_records": 631,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 118176.7
+          }
+        }
+      },
+      "00_sanskrit_3.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_3.jsonl",
+        "total_records": 282,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 334078.6
+          }
+        }
+      },
+      "00_sanskrit_4.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_4.jsonl",
+        "total_records": 148,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 638244.8
+          }
+        }
+      },
+      "00_sanskrit_5.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_5.jsonl",
+        "total_records": 81,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1167302.4
+          }
+        }
+      },
+      "00_sanskrit_6.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_6.jsonl",
+        "total_records": 97201,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 9
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 2603266.8
+          }
+        }
+      },
+      "00_sanskrit_7.jsonl": {
+        "file_path": "sanskrit\\00_sanskrit_7.jsonl",
+        "total_records": 15770,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 2160.5
+          }
+        }
+      }
+    }
+  },
+  "tibetan": {
+    "directory": "tibetan",
+    "total_files": 93,
+    "total_records": 184225,
+    "files": {
+      "Tibetan_1.jsonl": {
+        "file_path": "tibetan\\Tibetan_1.jsonl",
+        "total_records": 11234,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 159733.1
+          }
+        }
+      },
+      "Tibetan_10.jsonl": {
+        "file_path": "tibetan\\Tibetan_10.jsonl",
+        "total_records": 44,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 2006961.4
+          }
+        }
+      },
+      "Tibetan_11.jsonl": {
+        "file_path": "tibetan\\Tibetan_11.jsonl",
+        "total_records": 6207,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 423176.3
+          }
+        }
+      },
+      "Tibetan_12.jsonl": {
+        "file_path": "tibetan\\Tibetan_12.jsonl",
+        "total_records": 1801,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 11435.9
+          }
+        }
+      },
+      "Tibetan_13.jsonl": {
+        "file_path": "tibetan\\Tibetan_13.jsonl",
+        "total_records": 929,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 268552.3
+          }
+        }
+      },
+      "Tibetan_14.jsonl": {
+        "file_path": "tibetan\\Tibetan_14.jsonl",
+        "total_records": 252,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 539199.7
+          }
+        }
+      },
+      "Tibetan_15.jsonl": {
+        "file_path": "tibetan\\Tibetan_15.jsonl",
+        "total_records": 324,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 144859.1
+          }
+        }
+      },
+      "Tibetan_16.jsonl": {
+        "file_path": "tibetan\\Tibetan_16.jsonl",
+        "total_records": 154,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 157436.7
+          }
+        }
+      },
+      "Tibetan_17.jsonl": {
+        "file_path": "tibetan\\Tibetan_17.jsonl",
+        "total_records": 131,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 491314.3
+          }
+        }
+      },
+      "Tibetan_18.jsonl": {
+        "file_path": "tibetan\\Tibetan_18.jsonl",
+        "total_records": 106,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 474896.4
+          }
+        }
+      },
+      "Tibetan_19.jsonl": {
+        "file_path": "tibetan\\Tibetan_19.jsonl",
+        "total_records": 144,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 438744.3
+          }
+        }
+      },
+      "Tibetan_2.jsonl": {
+        "file_path": "tibetan\\Tibetan_2.jsonl",
+        "total_records": 6650,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 128221.6
+          }
+        }
+      },
+      "Tibetan_20.jsonl": {
+        "file_path": "tibetan\\Tibetan_20.jsonl",
+        "total_records": 210,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 167996.7
+          }
+        }
+      },
+      "Tibetan_21.jsonl": {
+        "file_path": "tibetan\\Tibetan_21.jsonl",
+        "total_records": 125,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 451784.0
+          }
+        }
+      },
+      "Tibetan_22.jsonl": {
+        "file_path": "tibetan\\Tibetan_22.jsonl",
+        "total_records": 88,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1718590.9
+          }
+        }
+      },
+      "Tibetan_23.jsonl": {
+        "file_path": "tibetan\\Tibetan_23.jsonl",
+        "total_records": 16937,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 378265.2
+          }
+        }
+      },
+      "Tibetan_24.jsonl": {
+        "file_path": "tibetan\\Tibetan_24.jsonl",
+        "total_records": 173,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 204823.4
+          }
+        }
+      },
+      "Tibetan_25.jsonl": {
+        "file_path": "tibetan\\Tibetan_25.jsonl",
+        "total_records": 147,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 463735.5
+          }
+        }
+      },
+      "Tibetan_26.jsonl": {
+        "file_path": "tibetan\\Tibetan_26.jsonl",
+        "total_records": 183,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 238758.7
+          }
+        }
+      },
+      "Tibetan_27.jsonl": {
+        "file_path": "tibetan\\Tibetan_27.jsonl",
+        "total_records": 142,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 292652.6
+          }
+        }
+      },
+      "Tibetan_28.jsonl": {
+        "file_path": "tibetan\\Tibetan_28.jsonl",
+        "total_records": 116,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 548394.8
+          }
+        }
+      },
+      "Tibetan_29.jsonl": {
+        "file_path": "tibetan\\Tibetan_29.jsonl",
+        "total_records": 163,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1488869.1
+          }
+        }
+      },
+      "Tibetan_3.jsonl": {
+        "file_path": "tibetan\\Tibetan_3.jsonl",
+        "total_records": 11219,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1560.8
+          }
+        }
+      },
+      "Tibetan_30.jsonl": {
+        "file_path": "tibetan\\Tibetan_30.jsonl",
+        "total_records": 278,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 138515.5
+          }
+        }
+      },
+      "Tibetan_31.jsonl": {
+        "file_path": "tibetan\\Tibetan_31.jsonl",
+        "total_records": 268,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 126645.0
+          }
+        }
+      },
+      "Tibetan_32.jsonl": {
+        "file_path": "tibetan\\Tibetan_32.jsonl",
+        "total_records": 146,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 530067.2
+          }
+        }
+      },
+      "Tibetan_33.jsonl": {
+        "file_path": "tibetan\\Tibetan_33.jsonl",
+        "total_records": 132,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 291599.6
+          }
+        }
+      },
+      "Tibetan_34.jsonl": {
+        "file_path": "tibetan\\Tibetan_34.jsonl",
+        "total_records": 799,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1034709.1
+          }
+        }
+      },
+      "Tibetan_35.jsonl": {
+        "file_path": "tibetan\\Tibetan_35.jsonl",
+        "total_records": 19597,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 3170.9
+          }
+        }
+      },
+      "Tibetan_36.jsonl": {
+        "file_path": "tibetan\\Tibetan_36.jsonl",
+        "total_records": 9306,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 518515.6
+          }
+        }
+      },
+      "Tibetan_37.jsonl": {
+        "file_path": "tibetan\\Tibetan_37.jsonl",
+        "total_records": 481,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1812.3
+          }
+        }
+      },
+      "Tibetan_38.jsonl": {
+        "file_path": "tibetan\\Tibetan_38.jsonl",
+        "total_records": 61,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1369243.4
+          }
+        }
+      },
+      "Tibetan_39.jsonl": {
+        "file_path": "tibetan\\Tibetan_39.jsonl",
+        "total_records": 17862,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 467435.0
+          }
+        }
+      },
+      "Tibetan_4.jsonl": {
+        "file_path": "tibetan\\Tibetan_4.jsonl",
+        "total_records": 503,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 117891.7
+          }
+        }
+      },
+      "Tibetan_40.jsonl": {
+        "file_path": "tibetan\\Tibetan_40.jsonl",
+        "total_records": 102,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 592827.5
+          }
+        }
+      },
+      "Tibetan_41.jsonl": {
+        "file_path": "tibetan\\Tibetan_41.jsonl",
+        "total_records": 93,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 464226.0
+          }
+        }
+      },
+      "Tibetan_42.jsonl": {
+        "file_path": "tibetan\\Tibetan_42.jsonl",
+        "total_records": 69,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 504988.1
+          }
+        }
+      },
+      "Tibetan_43.jsonl": {
+        "file_path": "tibetan\\Tibetan_43.jsonl",
+        "total_records": 64,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1328559.0
+          }
+        }
+      },
+      "Tibetan_44.jsonl": {
+        "file_path": "tibetan\\Tibetan_44.jsonl",
+        "total_records": 77,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 715101.4
+          }
+        }
+      },
+      "Tibetan_45.jsonl": {
+        "file_path": "tibetan\\Tibetan_45.jsonl",
+        "total_records": 67,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 775124.1
+          }
+        }
+      },
+      "Tibetan_46.jsonl": {
+        "file_path": "tibetan\\Tibetan_46.jsonl",
+        "total_records": 92,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 683516.3
+          }
+        }
+      },
+      "Tibetan_47.jsonl": {
+        "file_path": "tibetan\\Tibetan_47.jsonl",
+        "total_records": 78,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 877258.9
+          }
+        }
+      },
+      "Tibetan_48.jsonl": {
+        "file_path": "tibetan\\Tibetan_48.jsonl",
+        "total_records": 90,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 576283.1
+          }
+        }
+      },
+      "Tibetan_49.jsonl": {
+        "file_path": "tibetan\\Tibetan_49.jsonl",
+        "total_records": 56,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 787363.3
+          }
+        }
+      },
+      "Tibetan_5.jsonl": {
+        "file_path": "tibetan\\Tibetan_5.jsonl",
+        "total_records": 785,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 61157.6
+          }
+        }
+      },
+      "Tibetan_50.jsonl": {
+        "file_path": "tibetan\\Tibetan_50.jsonl",
+        "total_records": 29,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1652664.4
+          }
+        }
+      },
+      "Tibetan_51.jsonl": {
+        "file_path": "tibetan\\Tibetan_51.jsonl",
+        "total_records": 64,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1009546.8
+          }
+        }
+      },
+      "Tibetan_52.jsonl": {
+        "file_path": "tibetan\\Tibetan_52.jsonl",
+        "total_records": 78,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 745307.7
+          }
+        }
+      },
+      "Tibetan_53.jsonl": {
+        "file_path": "tibetan\\Tibetan_53.jsonl",
+        "total_records": 65,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 623543.7
+          }
+        }
+      },
+      "Tibetan_54.jsonl": {
+        "file_path": "tibetan\\Tibetan_54.jsonl",
+        "total_records": 85,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 994451.1
+          }
+        }
+      },
+      "Tibetan_55.jsonl": {
+        "file_path": "tibetan\\Tibetan_55.jsonl",
+        "total_records": 144,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 232038.4
+          }
+        }
+      },
+      "Tibetan_56.jsonl": {
+        "file_path": "tibetan\\Tibetan_56.jsonl",
+        "total_records": 73,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 612942.7
+          }
+        }
+      },
+      "Tibetan_57.jsonl": {
+        "file_path": "tibetan\\Tibetan_57.jsonl",
+        "total_records": 55,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1091417.6
+          }
+        }
+      },
+      "Tibetan_58.jsonl": {
+        "file_path": "tibetan\\Tibetan_58.jsonl",
+        "total_records": 76,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 739879.5
+          }
+        }
+      },
+      "Tibetan_59.jsonl": {
+        "file_path": "tibetan\\Tibetan_59.jsonl",
+        "total_records": 88,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 710604.6
+          }
+        }
+      },
+      "Tibetan_6.jsonl": {
+        "file_path": "tibetan\\Tibetan_6.jsonl",
+        "total_records": 10776,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1939.3
+          }
+        }
+      },
+      "Tibetan_60.jsonl": {
+        "file_path": "tibetan\\Tibetan_60.jsonl",
+        "total_records": 5517,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 551083.4
+          }
+        }
+      },
+      "Tibetan_61.jsonl": {
+        "file_path": "tibetan\\Tibetan_61.jsonl",
+        "total_records": 10674,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 3249.9
+          }
+        }
+      },
+      "Tibetan_62.jsonl": {
+        "file_path": "tibetan\\Tibetan_62.jsonl",
+        "total_records": 75,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 638311.4
+          }
+        }
+      },
+      "Tibetan_63.jsonl": {
+        "file_path": "tibetan\\Tibetan_63.jsonl",
+        "total_records": 50,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1171584.6
+          }
+        }
+      },
+      "Tibetan_64.jsonl": {
+        "file_path": "tibetan\\Tibetan_64.jsonl",
+        "total_records": 68,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 883154.6
+          }
+        }
+      },
+      "Tibetan_65.jsonl": {
+        "file_path": "tibetan\\Tibetan_65.jsonl",
+        "total_records": 57,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 734929.6
+          }
+        }
+      },
+      "Tibetan_66.jsonl": {
+        "file_path": "tibetan\\Tibetan_66.jsonl",
+        "total_records": 138,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 916173.1
+          }
+        }
+      },
+      "Tibetan_67.jsonl": {
+        "file_path": "tibetan\\Tibetan_67.jsonl",
+        "total_records": 264,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 118064.2
+          }
+        }
+      },
+      "Tibetan_68.jsonl": {
+        "file_path": "tibetan\\Tibetan_68.jsonl",
+        "total_records": 62,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 903072.1
+          }
+        }
+      },
+      "Tibetan_69.jsonl": {
+        "file_path": "tibetan\\Tibetan_69.jsonl",
+        "total_records": 51,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 885874.2
+          }
+        }
+      },
+      "Tibetan_7.jsonl": {
+        "file_path": "tibetan\\Tibetan_7.jsonl",
+        "total_records": 8653,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 77872.0
+          }
+        }
+      },
+      "Tibetan_70.jsonl": {
+        "file_path": "tibetan\\Tibetan_70.jsonl",
+        "total_records": 61,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 931812.7
+          }
+        }
+      },
+      "Tibetan_71.jsonl": {
+        "file_path": "tibetan\\Tibetan_71.jsonl",
+        "total_records": 57,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 839223.7
+          }
+        }
+      },
+      "Tibetan_72.jsonl": {
+        "file_path": "tibetan\\Tibetan_72.jsonl",
+        "total_records": 10323,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1081757.7
+          }
+        }
+      },
+      "Tibetan_73.jsonl": {
+        "file_path": "tibetan\\Tibetan_73.jsonl",
+        "total_records": 262,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 9487.4
+          }
+        }
+      },
+      "Tibetan_74.jsonl": {
+        "file_path": "tibetan\\Tibetan_74.jsonl",
+        "total_records": 73,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 678345.6
+          }
+        }
+      },
+      "Tibetan_75.jsonl": {
+        "file_path": "tibetan\\Tibetan_75.jsonl",
+        "total_records": 61,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 793991.0
+          }
+        }
+      },
+      "Tibetan_76.jsonl": {
+        "file_path": "tibetan\\Tibetan_76.jsonl",
+        "total_records": 48,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 974134.6
+          }
+        }
+      },
+      "Tibetan_77.jsonl": {
+        "file_path": "tibetan\\Tibetan_77.jsonl",
+        "total_records": 78,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 648008.5
+          }
+        }
+      },
+      "Tibetan_78.jsonl": {
+        "file_path": "tibetan\\Tibetan_78.jsonl",
+        "total_records": 60,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1093089.6
+          }
+        }
+      },
+      "Tibetan_79.jsonl": {
+        "file_path": "tibetan\\Tibetan_79.jsonl",
+        "total_records": 64,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 705782.7
+          }
+        }
+      },
+      "Tibetan_8.jsonl": {
+        "file_path": "tibetan\\Tibetan_8.jsonl",
+        "total_records": 1548,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 163923.7
+          }
+        }
+      },
+      "Tibetan_80.jsonl": {
+        "file_path": "tibetan\\Tibetan_80.jsonl",
+        "total_records": 55,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1036715.5
+          }
+        }
+      },
+      "Tibetan_81.jsonl": {
+        "file_path": "tibetan\\Tibetan_81.jsonl",
+        "total_records": 39,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1242882.5
+          }
+        }
+      },
+      "Tibetan_82.jsonl": {
+        "file_path": "tibetan\\Tibetan_82.jsonl",
+        "total_records": 59,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 890551.0
+          }
+        }
+      },
+      "Tibetan_83.jsonl": {
+        "file_path": "tibetan\\Tibetan_83.jsonl",
+        "total_records": 57,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1067079.1
+          }
+        }
+      },
+      "Tibetan_84.jsonl": {
+        "file_path": "tibetan\\Tibetan_84.jsonl",
+        "total_records": 60,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 864130.7
+          }
+        }
+      },
+      "Tibetan_85.jsonl": {
+        "file_path": "tibetan\\Tibetan_85.jsonl",
+        "total_records": 354,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 855714.9
+          }
+        }
+      },
+      "Tibetan_86.jsonl": {
+        "file_path": "tibetan\\Tibetan_86.jsonl",
+        "total_records": 110,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 106532.2
+          }
+        }
+      },
+      "Tibetan_87.jsonl": {
+        "file_path": "tibetan\\Tibetan_87.jsonl",
+        "total_records": 37,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1233322.8
+          }
+        }
+      },
+      "Tibetan_88.jsonl": {
+        "file_path": "tibetan\\Tibetan_88.jsonl",
+        "total_records": 39,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1286523.7
+          }
+        }
+      },
+      "Tibetan_89.jsonl": {
+        "file_path": "tibetan\\Tibetan_89.jsonl",
+        "total_records": 6011,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1148759.2
+          }
+        }
+      },
+      "Tibetan_9.jsonl": {
+        "file_path": "tibetan\\Tibetan_9.jsonl",
+        "total_records": 6732,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 43192.2
+          }
+        }
+      },
+      "Tibetan_90.jsonl": {
+        "file_path": "tibetan\\Tibetan_90.jsonl",
+        "total_records": 12326,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 3269.8
+          }
+        }
+      },
+      "Tibetan_91.jsonl": {
+        "file_path": "tibetan\\Tibetan_91.jsonl",
+        "total_records": 44,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1199184.5
+          }
+        }
+      },
+      "Tibetan_92.jsonl": {
+        "file_path": "tibetan\\Tibetan_92.jsonl",
+        "total_records": 33,
+        "sample_size": 10,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 10
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 10
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 10
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 1238034.5
+          }
+        }
+      },
+      "Tibetan_93.jsonl": {
+        "file_path": "tibetan\\Tibetan_93.jsonl",
+        "total_records": 7,
+        "sample_size": 7,
+        "structure": {
+          "total_keys": 2,
+          "all_keys": [
+            "metadata",
+            "text"
+          ],
+          "key_statistics": {
+            "metadata": {
+              "presence_rate": 1.0,
+              "types": {
+                "dict": 7
+              }
+            },
+            "text": {
+              "presence_rate": 1.0,
+              "types": {
+                "str": 7
+              }
+            }
+          }
+        },
+        "content": {
+          "text_fields": {
+            "text": 7
+          },
+          "numeric_fields": {},
+          "average_text_lengths": {
+            "text": 3762387.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+---
+alwaysApply: true
+---
+
+
+### **The Complete & Final Prompt for AI Code Assistant (V3)**
+
+**Hello. You are my expert AI assistant for a new NLP project. This document contains the complete and final set of instructions that you must follow for our entire collaboration. Your primary mission is to help me build a foundational language model for Sanskrit and Tibetan by adhering to the principles of structured, reproducible, and clean work.**
+
+#### **1. The Golden Rule: Default to the `sandbox`**
+
+**Your default working assumption is that we are always operating inside the `sandbox/` directory.**
+
+Unless I explicitly say:
+
+  * "Let's write the **official/production** code..."
+  * "Let's move this to **`src/`**..."
+  * Or mention a specific file in `src/` (e.g., "update `src/train.py`"),
+
+**...you will ALWAYS assume the work is part of an experiment within `sandbox/`.** You should ask which experiment sub-directory to use or suggest creating a new one if the context is new.
+
+#### **2. The Two Workflows: `sandbox` vs. `src`**
+
+Our project has two distinct work environments with different rules:
+
+**A. The `sandbox/` Directory (The Research Lab)**
+
+This is where we conduct structured research and prototype ideas. The key principle here is **organized and documented experimentation**.
+
+  * **Hierarchical & Modular Structure:** For every new research topic, create a dedicated sub-directory. If a research topic has sub-topics, create nested directories. This keeps experiments modular and clean.
+      * *Example:* A study on tokenizers might have the structure: `sandbox/tokenizer_experiments/bpe_vs_wordpiece/`.
+  * **Meaningful Naming:** All directories and scripts must have **clear, descriptive names in English** that reflect their purpose.
+  * **Organized Outputs:** Inside each experiment directory, create an `outputs/` folder to store all results. This folder can have its own structure.
+      * *Example:* `.../bpe_vs_wordpiece/outputs/plots/`, `.../bpe_vs_wordpiece/outputs/results/`.
+  * **Mandatory Documentation:** Each main experiment directory (e.g., `sandbox/tokenizer_experiments/`) **must contain a `README.md` file**. This file should briefly explain:
+    1.  The goal of the experiment.
+    2.  The key findings or status.
+    3.  A short description of the scripts inside.
+  * **Python Scripts Only:** You will work exclusively with **Python scripts (`.py` files)**. Do not use Jupyter Notebooks (`.ipynb`) unless I specifically ask for one.
+  * **Flexible Rules:** While organized, this area is free from the strict coding rules of `src/`. You don't need formal type hints, docstrings, or config files for every script, but the code should still be readable.
+
+**B. The `src/` Directory (The Factory)**
+
+This directory contains only production-quality, final, and reliable code.
+
+  * **Promoting Code:** Code is only written here after we have validated the concept in the `sandbox` and have explicitly decided to create the "official" version.
+  * **Strict Rules Apply:** **ALL rules** listed in Section 4 below are **mandatory and non-negotiable** for every file inside `src/`.
+
+#### **3. The Official Project Structure**
+
+```
+project_root/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── config/
+│   └── sanskrit_from_scratch.yaml
+├── sandbox/                        # (In .gitignore)
+│   └── tokenizer_experiments/
+│       ├── README.md
+│       └── bpe_vs_wordpiece/
+│           ├── run_bpe_test.py
+│           └── outputs/
+│               ├── plots/
+│               │   └── convergence.png
+│               └── results/
+│                   └── bpe_vocab_size.csv
+└── src/
+    └── ... (as defined before)
+```
+
+**Crucial Note:** The `.gitignore` file must contain `data/`, `models/`, and `sandbox/`.
+
+#### **4. Strict Coding Directives (For `src/` Directory ONLY)**
+#### **3. Coding Directives & Best Practices**
+
+1.  **No Hard-Coding:** NEVER hard-code parameters like learning rates, file paths, model sizes, or batch sizes directly in scripts (`.py` files).
+    * **Action:** Always read these parameters from a configuration file located in the `config/` directory. We will use the **YAML format** for configuration.
+
+2.  **Ensure Reproducibility:** At the beginning of any script involving randomness (e.g., `train.py`, `data_loader.py`), you MUST include a function to set the random seed.
+    * **Action:** Use a function like this and call it at the start of `main`:
+        ```python
+        import torch
+        import numpy as np
+        import random
+
+        def set_seed(seed: int):
+            """Sets the random seed for reproducibility."""
+            torch.manual_seed(seed)
+            torch.cuda.manual_seed_all(seed)
+            np.random.seed(seed)
+            random.seed(seed)
+            torch.backends.cudnn.deterministic = True
+            torch.backends.cudnn.benchmark = False
+        ```
+
+3.  **Type Hinting is Mandatory:** ALL Python functions and methods must include type hints for all arguments and return values.
+    * **Example:** `def load_data(path: str) -> pd.DataFrame:`
+
+4.  **Documentation is Crucial:** ALL functions, classes, and modules must have clear docstrings. Use Google-style or reStructuredText format.
+    * **Example:**
+        ```python
+        def my_function(param1: int, param2: str) -> bool:
+            """
+            This is a short description of the function.
+
+            Args:
+                param1: Description of the first parameter.
+                param2: Description of the second parameter.
+
+            Returns:
+                Description of the return value.
+            """
+            # function code here
+            return True
+        ```
+
+5.  **Use the `logging` Module:** Do not use `print()` for status updates, progress, or debugging inside scripts. Use Python's built-in `logging` module.
+    * **Action:** At the start of a script, configure a basic logger.
+        ```python
+        import logging
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+        logging.info("This is an info message.")
+        ```
+
+#### **4. Git & Commit Message Protocol**
+
+When I ask you to suggest a commit message, you must follow the **Conventional Commits** specification.
+* **Format:** `type(scope): description`
+* **Examples:**
+    * `feat(train): add early stopping callback`
+    * `fix(data): correct parsing error for Tibetan texts`
+    * `docs(readme): update setup instructions`
+    * `style(all): apply black formatting`
+    * `refactor(model): simplify attention mechanism`
+    * `test(eval): add unit test for f1 score calculation`
+
+#### **5. Example Workflow**
+
+To ensure you understand, here is how we will work together.
+
+**ME:** "Cursor, please create the script `src/train.py`. It should load data using our data loader, initialize a model from scratch based on a config, and run a training loop. Also, create the configuration file for it."
+
+**YOUR EXPECTED OUTPUT:**
+
+1.  **You will generate the code for `src/train.py`**, ensuring it has:
+    * Type hints and docstrings.
+    * A `set_seed()` call.
+    * Imports for `logging`, `torch`, etc.
+    * Code to load a YAML config from the `config/` directory.
+    * The main training loop logic.
+
+2.  **You will ALSO generate the corresponding YAML configuration file**:
+    * File Path: `config/new_training_run.yaml`
+    * Content:
+        ```yaml
+        # Configuration for the new training run
+        run_name: "sanskrit_from_scratch_v1"
+
+        # Data paths
+        train_data_path: "data/processed/sanskrit_train.arrow"
+        val_data_path: "data/processed/sanskrit_val.arrow"
+
+        # Model parameters
+        model_type: "roberta-base"
+        from_scratch: true
+
+        # Training parameters
+        seed: 42
+        epochs: 5
+        batch_size: 16
+        learning_rate: 0.0005
+        ```
+
+---
