@@ -1,0 +1,36 @@
+  0%|                                                                                                                | 0/1232547 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  0%|                                                                                                  | 500/1232547 [04:48<209:56:40,  1.63it/s]Traceback (most recent call last):
+{'loss': 8.5918, 'grad_norm': 4.50575590133667, 'learning_rate': 4.997975736422222e-05, 'epoch': 0.0}
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 61, in <module>00 [04:09<1452:53:38, 28.65s/it]
+    main()
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 45, in main
+    run_training(
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 94, in run_training
+    trainer.train()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2660, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3133, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3082, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4242, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4464, in evaluation_loop
+    all_preds.add(logits)
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 317, in add
+    self.tensors = nested_concat(self.tensors, tensors, padding_index=self.padding_index)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 131, in nested_concat
+    return torch_pad_and_concatenate(tensors, new_tensors, padding_index=padding_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 89, in torch_pad_and_concatenate
+    return torch.cat((tensor1, tensor2), dim=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

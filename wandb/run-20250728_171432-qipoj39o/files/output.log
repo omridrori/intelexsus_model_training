@@ -1,0 +1,35 @@
+  0%|                                                                                                                | 0/2465091 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  0%|                                                                                                   | 10/2465091 [01:08<779:12:24,  1.14s/it]Traceback (most recent call last):
+{'loss': 15.6351, 'grad_norm': 9.779821395874023, 'learning_rate': 4.9999918867092535e-05, 'epoch': 0.0}
+{'loss': 17.0078, 'grad_norm': 8.268568992614746, 'learning_rate': 4.99998174509582e-05, 'epoch': 0.0}
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 64, in <module>60794 [16:45<6:18:17, 61.87it/s]
+    main()
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 48, in main
+    run_training(
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 94, in run_training
+    compute_metrics=compute_metrics if eval_dataset else None,
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2660, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3133, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3082, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4242, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4488, in evaluation_loop
+    all_losses.to_cpu_and_numpy()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 328, in to_cpu_and_numpy
+    new_arrays = nested_numpify(self.tensors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 169, in nested_numpify
+    t = tensors.cpu()
+        ^^^^^^^^^^^^^
+KeyboardInterrupt

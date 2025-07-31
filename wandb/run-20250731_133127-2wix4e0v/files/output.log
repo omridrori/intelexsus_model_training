@@ -1,0 +1,297 @@
+  0%|                                                                        | 0/200 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  1%|▋                                                               | 2/200 [00:01<01:35,  2.07it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 10.3125, 'grad_norm': 24.598047256469727, 'learning_rate': 0.0, 'epoch': 0.5}
+{'loss': 10.776, 'grad_norm': 22.926513671875, 'learning_rate': 8.333333333333334e-06, 'epoch': 1.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.828819274902344, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4925, 'eval_samples_per_second': 32.488, 'eval_steps_per_second': 4.061, 'epoch': 1.0}
+  2%|█▎                                                              | 4/200 [00:04<02:42,  1.21it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 10.5385, 'grad_norm': 21.831575393676758, 'learning_rate': 1.6666666666666667e-05, 'epoch': 1.5}
+{'loss': 10.3164, 'grad_norm': 21.707355499267578, 'learning_rate': 2.5e-05, 'epoch': 2.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.277604103088379, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5588, 'eval_samples_per_second': 28.635, 'eval_steps_per_second': 3.579, 'epoch': 2.0}
+  3%|█▉                                                              | 6/200 [00:06<03:01,  1.07it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 10.151, 'grad_norm': 21.37812042236328, 'learning_rate': 3.3333333333333335e-05, 'epoch': 2.5}
+{'loss': 10.2563, 'grad_norm': 22.556379318237305, 'learning_rate': 4.166666666666667e-05, 'epoch': 3.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.50815200805664, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4299, 'eval_samples_per_second': 37.216, 'eval_steps_per_second': 4.652, 'epoch': 3.0}
+  4%|██▌                                                             | 8/200 [00:08<03:02,  1.05it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 10.0625, 'grad_norm': 21.237396240234375, 'learning_rate': 5e-05, 'epoch': 3.5}
+{'loss': 9.5422, 'grad_norm': 13.553778648376465, 'learning_rate': 5.833333333333334e-05, 'epoch': 4.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.229876518249512, 'eval_mlm_accuracy': 0.034482758620689655, 'eval_runtime': 0.4219, 'eval_samples_per_second': 37.922, 'eval_steps_per_second': 4.74, 'epoch': 4.0}
+  5%|███▏                                                           | 10/200 [00:10<02:51,  1.11it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.1736, 'grad_norm': 20.74107551574707, 'learning_rate': 6.666666666666667e-05, 'epoch': 4.5}
+{'loss': 9.642, 'grad_norm': 14.982893943786621, 'learning_rate': 7.500000000000001e-05, 'epoch': 5.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.36802864074707, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4775, 'eval_samples_per_second': 33.505, 'eval_steps_per_second': 4.188, 'epoch': 5.0}
+  6%|███▊                                                           | 12/200 [00:13<02:56,  1.07it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 10.233, 'grad_norm': 14.381698608398438, 'learning_rate': 8.333333333333334e-05, 'epoch': 5.5}
+{'loss': 9.1429, 'grad_norm': 17.003629684448242, 'learning_rate': 9.166666666666667e-05, 'epoch': 6.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.521875381469727, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.41, 'eval_samples_per_second': 39.024, 'eval_steps_per_second': 4.878, 'epoch': 6.0}
+  7%|████▍                                                          | 14/200 [00:15<02:51,  1.08it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.851, 'grad_norm': 11.932698249816895, 'learning_rate': 0.0001, 'epoch': 6.5}
+{'loss': 8.4453, 'grad_norm': 13.417348861694336, 'learning_rate': 9.946808510638298e-05, 'epoch': 7.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.332784652709961, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4283, 'eval_samples_per_second': 37.355, 'eval_steps_per_second': 4.669, 'epoch': 7.0}
+  8%|█████                                                          | 16/200 [00:17<02:46,  1.10it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.6589, 'grad_norm': 12.168447494506836, 'learning_rate': 9.893617021276596e-05, 'epoch': 7.5}
+{'loss': 9.2422, 'grad_norm': 12.907014846801758, 'learning_rate': 9.840425531914894e-05, 'epoch': 8.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.959821701049805, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.509, 'eval_samples_per_second': 31.436, 'eval_steps_per_second': 3.929, 'epoch': 8.0}
+  9%|█████▋                                                         | 18/200 [00:19<02:57,  1.03it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.9509, 'grad_norm': 10.875679016113281, 'learning_rate': 9.787234042553192e-05, 'epoch': 8.5}
+{'loss': 9.4727, 'grad_norm': 10.110241889953613, 'learning_rate': 9.734042553191491e-05, 'epoch': 9.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.305706024169922, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5297, 'eval_samples_per_second': 30.205, 'eval_steps_per_second': 3.776, 'epoch': 9.0}
+ 10%|██████▎                                                        | 20/200 [00:22<03:00,  1.00s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.925, 'grad_norm': 17.832504272460938, 'learning_rate': 9.680851063829788e-05, 'epoch': 9.5}
+{'loss': 8.9736, 'grad_norm': 11.155220031738281, 'learning_rate': 9.627659574468085e-05, 'epoch': 10.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.247135162353516, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4339, 'eval_samples_per_second': 36.874, 'eval_steps_per_second': 4.609, 'epoch': 10.0}
+ 11%|██████▉                                                        | 22/200 [00:24<02:54,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 9.1445, 'grad_norm': 9.201119422912598, 'learning_rate': 9.574468085106384e-05, 'epoch': 10.5}
+{'loss': 7.8242, 'grad_norm': 15.65641975402832, 'learning_rate': 9.521276595744681e-05, 'epoch': 11.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.18709945678711, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4841, 'eval_samples_per_second': 33.053, 'eval_steps_per_second': 4.132, 'epoch': 11.0}
+ 12%|███████▌                                                       | 24/200 [00:27<02:53,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 8.804, 'grad_norm': 11.79423713684082, 'learning_rate': 9.468085106382978e-05, 'epoch': 11.5}
+{'loss': 8.6406, 'grad_norm': 11.460652351379395, 'learning_rate': 9.414893617021277e-05, 'epoch': 12.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.998161315917969, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5095, 'eval_samples_per_second': 31.406, 'eval_steps_per_second': 3.926, 'epoch': 12.0}
+ 13%|████████▏                                                      | 26/200 [00:29<02:56,  1.01s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 8.6516, 'grad_norm': 8.957596778869629, 'learning_rate': 9.361702127659576e-05, 'epoch': 12.5}
+{'loss': 8.1116, 'grad_norm': 15.483163833618164, 'learning_rate': 9.308510638297873e-05, 'epoch': 13.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.955453872680664, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.433, 'eval_samples_per_second': 36.956, 'eval_steps_per_second': 4.619, 'epoch': 13.0}
+ 14%|████████▊                                                      | 28/200 [00:31<02:42,  1.06it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 8.3687, 'grad_norm': 9.484063148498535, 'learning_rate': 9.25531914893617e-05, 'epoch': 13.5}
+{'loss': 8.1827, 'grad_norm': 9.457038879394531, 'learning_rate': 9.202127659574469e-05, 'epoch': 14.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.68576431274414, 'eval_mlm_accuracy': 0.038461538461538464, 'eval_runtime': 0.5024, 'eval_samples_per_second': 31.846, 'eval_steps_per_second': 3.981, 'epoch': 14.0}
+ 15%|█████████▍                                                     | 30/200 [00:33<02:43,  1.04it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.8066, 'grad_norm': 9.82896614074707, 'learning_rate': 9.148936170212766e-05, 'epoch': 14.5}
+{'loss': 8.4863, 'grad_norm': 8.80814266204834, 'learning_rate': 9.095744680851064e-05, 'epoch': 15.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.898307800292969, 'eval_mlm_accuracy': 0.029411764705882353, 'eval_runtime': 0.4968, 'eval_samples_per_second': 32.207, 'eval_steps_per_second': 4.026, 'epoch': 15.0}
+ 16%|██████████                                                     | 32/200 [00:36<03:02,  1.09s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 8.1763, 'grad_norm': 9.245637893676758, 'learning_rate': 9.042553191489363e-05, 'epoch': 15.5}
+{'loss': 8.15, 'grad_norm': 11.106732368469238, 'learning_rate': 8.98936170212766e-05, 'epoch': 16.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.031720161437988, 'eval_mlm_accuracy': 0.038461538461538464, 'eval_runtime': 0.4498, 'eval_samples_per_second': 35.569, 'eval_steps_per_second': 4.446, 'epoch': 16.0}
+ 17%|██████████▋                                                    | 34/200 [00:38<02:45,  1.00it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.8382, 'grad_norm': 9.034936904907227, 'learning_rate': 8.936170212765958e-05, 'epoch': 16.5}
+{'loss': 7.5799, 'grad_norm': 11.661104202270508, 'learning_rate': 8.882978723404256e-05, 'epoch': 17.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.085044860839844, 'eval_mlm_accuracy': 0.045454545454545456, 'eval_runtime': 0.5004, 'eval_samples_per_second': 31.977, 'eval_steps_per_second': 3.997, 'epoch': 17.0}
+ 18%|███████████▎                                                   | 36/200 [00:41<02:50,  1.04s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.388, 'grad_norm': 10.767778396606445, 'learning_rate': 8.829787234042553e-05, 'epoch': 17.5}
+{'loss': 7.7839, 'grad_norm': 10.116971969604492, 'learning_rate': 8.77659574468085e-05, 'epoch': 18.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.380439758300781, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4704, 'eval_samples_per_second': 34.013, 'eval_steps_per_second': 4.252, 'epoch': 18.0}
+ 19%|███████████▉                                                   | 38/200 [00:43<02:48,  1.04s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.764, 'grad_norm': 7.882928371429443, 'learning_rate': 8.723404255319149e-05, 'epoch': 18.5}
+{'loss': 7.1632, 'grad_norm': 12.765071868896484, 'learning_rate': 8.670212765957448e-05, 'epoch': 19.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.484529495239258, 'eval_mlm_accuracy': 0.037037037037037035, 'eval_runtime': 0.4369, 'eval_samples_per_second': 36.62, 'eval_steps_per_second': 4.578, 'epoch': 19.0}
+ 20%|████████████▌                                                  | 40/200 [00:46<02:48,  1.06s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.9427, 'grad_norm': 10.313278198242188, 'learning_rate': 8.617021276595745e-05, 'epoch': 19.5}
+{'loss': 7.6989, 'grad_norm': 10.40423583984375, 'learning_rate': 8.563829787234044e-05, 'epoch': 20.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.868749618530273, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4218, 'eval_samples_per_second': 37.928, 'eval_steps_per_second': 4.741, 'epoch': 20.0}
+ 21%|█████████████▏                                                 | 42/200 [00:48<02:40,  1.02s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.6562, 'grad_norm': 14.596198081970215, 'learning_rate': 8.510638297872341e-05, 'epoch': 20.5}
+{'loss': 7.026, 'grad_norm': 10.088809967041016, 'learning_rate': 8.457446808510638e-05, 'epoch': 21.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.944170951843262, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5058, 'eval_samples_per_second': 31.636, 'eval_steps_per_second': 3.955, 'epoch': 21.0}
+ 22%|█████████████▊                                                 | 44/200 [00:50<02:34,  1.01it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.4427, 'grad_norm': 7.9628424644470215, 'learning_rate': 8.404255319148937e-05, 'epoch': 21.5}
+{'loss': 7.0174, 'grad_norm': 12.863879203796387, 'learning_rate': 8.351063829787234e-05, 'epoch': 22.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.67221450805664, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4859, 'eval_samples_per_second': 32.926, 'eval_steps_per_second': 4.116, 'epoch': 22.0}
+ 23%|██████████████▍                                                | 46/200 [00:53<02:26,  1.05it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 7.4048, 'grad_norm': 10.480524063110352, 'learning_rate': 8.297872340425533e-05, 'epoch': 22.5}
+{'loss': 7.4771, 'grad_norm': 10.04691219329834, 'learning_rate': 8.244680851063831e-05, 'epoch': 23.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.281484603881836, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4739, 'eval_samples_per_second': 33.761, 'eval_steps_per_second': 4.22, 'epoch': 23.0}
+ 24%|███████████████                                                | 48/200 [00:55<02:30,  1.01it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.9219, 'grad_norm': 23.168212890625, 'learning_rate': 8.191489361702128e-05, 'epoch': 23.5}
+{'loss': 7.0382, 'grad_norm': 8.398258209228516, 'learning_rate': 8.138297872340426e-05, 'epoch': 24.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.929947853088379, 'eval_mlm_accuracy': 0.047619047619047616, 'eval_runtime': 0.4711, 'eval_samples_per_second': 33.963, 'eval_steps_per_second': 4.245, 'epoch': 24.0}
+ 25%|███████████████▊                                               | 50/200 [00:57<02:25,  1.03it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.9504, 'grad_norm': 8.739623069763184, 'learning_rate': 8.085106382978723e-05, 'epoch': 24.5}
+{'loss': 7.1074, 'grad_norm': 9.268896102905273, 'learning_rate': 8.031914893617021e-05, 'epoch': 25.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.777734756469727, 'eval_mlm_accuracy': 0.047619047619047616, 'eval_runtime': 0.4101, 'eval_samples_per_second': 39.019, 'eval_steps_per_second': 4.877, 'epoch': 25.0}
+ 26%|████████████████▍                                              | 52/200 [00:59<02:18,  1.07it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.9034, 'grad_norm': 10.442883491516113, 'learning_rate': 7.978723404255319e-05, 'epoch': 25.5}
+{'loss': 6.8527, 'grad_norm': 9.217927932739258, 'learning_rate': 7.925531914893617e-05, 'epoch': 26.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.442877769470215, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4395, 'eval_samples_per_second': 36.407, 'eval_steps_per_second': 4.551, 'epoch': 26.0}
+ 27%|█████████████████                                              | 54/200 [01:02<02:23,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.6659, 'grad_norm': 9.380719184875488, 'learning_rate': 7.872340425531916e-05, 'epoch': 26.5}
+{'loss': 6.7283, 'grad_norm': 8.050809860229492, 'learning_rate': 7.819148936170213e-05, 'epoch': 27.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.691601753234863, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4251, 'eval_samples_per_second': 37.638, 'eval_steps_per_second': 4.705, 'epoch': 27.0}
+ 28%|█████████████████▋                                             | 56/200 [01:04<02:25,  1.01s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.558, 'grad_norm': 9.74656867980957, 'learning_rate': 7.76595744680851e-05, 'epoch': 27.5}
+{'loss': 7.1604, 'grad_norm': 9.382329940795898, 'learning_rate': 7.712765957446809e-05, 'epoch': 28.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.89877700805664, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4778, 'eval_samples_per_second': 33.486, 'eval_steps_per_second': 4.186, 'epoch': 28.0}
+ 29%|██████████████████▎                                            | 58/200 [01:07<02:21,  1.00it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.8, 'grad_norm': 15.118814468383789, 'learning_rate': 7.659574468085106e-05, 'epoch': 28.5}
+{'loss': 5.8235, 'grad_norm': 8.760111808776855, 'learning_rate': 7.606382978723405e-05, 'epoch': 29.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.4677734375, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4744, 'eval_samples_per_second': 33.725, 'eval_steps_per_second': 4.216, 'epoch': 29.0}
+ 30%|██████████████████▉                                            | 60/200 [01:09<02:28,  1.06s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.3115, 'grad_norm': 8.566794395446777, 'learning_rate': 7.553191489361703e-05, 'epoch': 29.5}
+{'loss': 6.3352, 'grad_norm': 9.954689025878906, 'learning_rate': 7.500000000000001e-05, 'epoch': 30.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.373046875, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4376, 'eval_samples_per_second': 36.565, 'eval_steps_per_second': 4.571, 'epoch': 30.0}
+ 31%|███████████████████▌                                           | 62/200 [01:11<02:19,  1.01s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.0288, 'grad_norm': 9.465638160705566, 'learning_rate': 7.446808510638298e-05, 'epoch': 30.5}
+{'loss': 7.0547, 'grad_norm': 17.042631149291992, 'learning_rate': 7.393617021276597e-05, 'epoch': 31.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.430580139160156, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.399, 'eval_samples_per_second': 40.105, 'eval_steps_per_second': 5.013, 'epoch': 31.0}
+ 32%|████████████████████▏                                          | 64/200 [01:14<02:09,  1.05it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.2271, 'grad_norm': 8.53373908996582, 'learning_rate': 7.340425531914894e-05, 'epoch': 31.5}
+{'loss': 6.4688, 'grad_norm': 16.998138427734375, 'learning_rate': 7.287234042553191e-05, 'epoch': 32.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.237695693969727, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4187, 'eval_samples_per_second': 38.211, 'eval_steps_per_second': 4.776, 'epoch': 32.0}
+ 33%|████████████████████▊                                          | 66/200 [01:16<02:11,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.7292, 'grad_norm': 19.512544631958008, 'learning_rate': 7.23404255319149e-05, 'epoch': 32.5}
+{'loss': 5.5469, 'grad_norm': 8.173465728759766, 'learning_rate': 7.180851063829788e-05, 'epoch': 33.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.73670768737793, 'eval_mlm_accuracy': 0.04, 'eval_runtime': 0.4318, 'eval_samples_per_second': 37.052, 'eval_steps_per_second': 4.631, 'epoch': 33.0}
+ 34%|█████████████████████▍                                         | 68/200 [01:19<02:15,  1.02s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.6395, 'grad_norm': 9.796217918395996, 'learning_rate': 7.127659574468085e-05, 'epoch': 33.5}
+{'loss': 5.4774, 'grad_norm': 14.100716590881348, 'learning_rate': 7.074468085106384e-05, 'epoch': 34.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 11.864583015441895, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5131, 'eval_samples_per_second': 31.184, 'eval_steps_per_second': 3.898, 'epoch': 34.0}
+ 35%|██████████████████████                                         | 70/200 [01:21<02:08,  1.01it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 13.5312, 'grad_norm': 16.05550765991211, 'learning_rate': 7.021276595744681e-05, 'epoch': 34.5}
+{'loss': 14.0139, 'grad_norm': 21.785728454589844, 'learning_rate': 6.968085106382979e-05, 'epoch': 35.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.02734375, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4584, 'eval_samples_per_second': 34.9, 'eval_steps_per_second': 4.363, 'epoch': 35.0}
+ 36%|██████████████████████▋                                        | 72/200 [01:23<02:13,  1.05s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.2682, 'grad_norm': 11.79062271118164, 'learning_rate': 6.914893617021277e-05, 'epoch': 35.5}
+{'loss': 5.5424, 'grad_norm': 12.676734924316406, 'learning_rate': 6.861702127659574e-05, 'epoch': 36.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.124218940734863, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4238, 'eval_samples_per_second': 37.75, 'eval_steps_per_second': 4.719, 'epoch': 36.0}
+ 37%|███████████████████████▎                                       | 74/200 [01:26<02:13,  1.06s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 6.2614, 'grad_norm': 10.84569263458252, 'learning_rate': 6.808510638297873e-05, 'epoch': 36.5}
+{'loss': 6.5031, 'grad_norm': 11.134296417236328, 'learning_rate': 6.75531914893617e-05, 'epoch': 37.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.751420974731445, 'eval_mlm_accuracy': 0.030303030303030304, 'eval_runtime': 0.4046, 'eval_samples_per_second': 39.541, 'eval_steps_per_second': 4.943, 'epoch': 37.0}
+ 38%|███████████████████████▉                                       | 76/200 [01:28<02:02,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.8156, 'grad_norm': 11.606706619262695, 'learning_rate': 6.702127659574469e-05, 'epoch': 37.5}
+{'loss': 5.7143, 'grad_norm': 146.92697143554688, 'learning_rate': 6.648936170212766e-05, 'epoch': 38.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.435369491577148, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4156, 'eval_samples_per_second': 38.497, 'eval_steps_per_second': 4.812, 'epoch': 38.0}
+ 39%|████████████████████████▌                                      | 78/200 [01:31<02:04,  1.02s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.9031, 'grad_norm': 11.934941291809082, 'learning_rate': 6.595744680851063e-05, 'epoch': 38.5}
+{'loss': 5.2297, 'grad_norm': 10.950250625610352, 'learning_rate': 6.542553191489362e-05, 'epoch': 39.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.008167266845703, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5005, 'eval_samples_per_second': 31.97, 'eval_steps_per_second': 3.996, 'epoch': 39.0}
+ 40%|█████████████████████████▏                                     | 80/200 [01:33<02:13,  1.11s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.5424, 'grad_norm': 14.757960319519043, 'learning_rate': 6.489361702127659e-05, 'epoch': 39.5}
+{'loss': 5.8906, 'grad_norm': 10.147652626037598, 'learning_rate': 6.436170212765958e-05, 'epoch': 40.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.272453308105469, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4612, 'eval_samples_per_second': 34.691, 'eval_steps_per_second': 4.336, 'epoch': 40.0}
+ 41%|█████████████████████████▊                                     | 82/200 [01:36<02:01,  1.03s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.6635, 'grad_norm': 10.661931037902832, 'learning_rate': 6.382978723404256e-05, 'epoch': 40.5}
+{'loss': 5.2328, 'grad_norm': 12.13354778289795, 'learning_rate': 6.329787234042554e-05, 'epoch': 41.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.375991821289062, 'eval_mlm_accuracy': 0.03333333333333333, 'eval_runtime': 0.3993, 'eval_samples_per_second': 40.072, 'eval_steps_per_second': 5.009, 'epoch': 41.0}
+ 42%|██████████████████████████▍                                    | 84/200 [01:38<02:01,  1.05s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.0938, 'grad_norm': 13.227423667907715, 'learning_rate': 6.276595744680851e-05, 'epoch': 41.5}
+{'loss': 5.393, 'grad_norm': 8.577681541442871, 'learning_rate': 6.22340425531915e-05, 'epoch': 42.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.36805534362793, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.429, 'eval_samples_per_second': 37.3, 'eval_steps_per_second': 4.663, 'epoch': 42.0}
+ 43%|███████████████████████████                                    | 86/200 [01:41<02:01,  1.07s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.0684, 'grad_norm': 15.728174209594727, 'learning_rate': 6.170212765957447e-05, 'epoch': 42.5}
+{'loss': 5.2688, 'grad_norm': 12.365128517150879, 'learning_rate': 6.117021276595745e-05, 'epoch': 43.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.227343559265137, 'eval_mlm_accuracy': 0.03571428571428571, 'eval_runtime': 0.4923, 'eval_samples_per_second': 32.503, 'eval_steps_per_second': 4.063, 'epoch': 43.0}
+ 44%|███████████████████████████▋                                   | 88/200 [01:43<01:54,  1.02s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.0122, 'grad_norm': 14.083490371704102, 'learning_rate': 6.063829787234043e-05, 'epoch': 43.5}
+{'loss': 4.921, 'grad_norm': 47.50902557373047, 'learning_rate': 6.010638297872341e-05, 'epoch': 44.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.350074768066406, 'eval_mlm_accuracy': 0.038461538461538464, 'eval_runtime': 0.4071, 'eval_samples_per_second': 39.299, 'eval_steps_per_second': 4.912, 'epoch': 44.0}
+ 45%|████████████████████████████▎                                  | 90/200 [01:45<01:46,  1.04it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.3707, 'grad_norm': 10.596012115478516, 'learning_rate': 5.9574468085106384e-05, 'epoch': 44.5}
+{'loss': 5.5344, 'grad_norm': 12.019197463989258, 'learning_rate': 5.904255319148937e-05, 'epoch': 45.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.9091796875, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.3971, 'eval_samples_per_second': 40.291, 'eval_steps_per_second': 5.036, 'epoch': 45.0}
+ 46%|████████████████████████████▉                                  | 92/200 [01:48<01:41,  1.06it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.9397, 'grad_norm': 10.937164306640625, 'learning_rate': 5.851063829787234e-05, 'epoch': 45.5}
+{'loss': 4.9028, 'grad_norm': 16.503692626953125, 'learning_rate': 5.797872340425532e-05, 'epoch': 46.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.00341796875, 'eval_mlm_accuracy': 0.041666666666666664, 'eval_runtime': 0.4015, 'eval_samples_per_second': 39.848, 'eval_steps_per_second': 4.981, 'epoch': 46.0}
+ 47%|█████████████████████████████▌                                 | 94/200 [01:49<01:38,  1.08it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.7115, 'grad_norm': 12.286121368408203, 'learning_rate': 5.744680851063831e-05, 'epoch': 46.5}
+{'loss': 5.3229, 'grad_norm': 13.259190559387207, 'learning_rate': 5.691489361702128e-05, 'epoch': 47.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.828819274902344, 'eval_mlm_accuracy': 0.043478260869565216, 'eval_runtime': 0.4056, 'eval_samples_per_second': 39.452, 'eval_steps_per_second': 4.931, 'epoch': 47.0}
+ 48%|██████████████████████████████▏                                | 96/200 [01:52<01:35,  1.08it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.2109, 'grad_norm': 9.141772270202637, 'learning_rate': 5.638297872340426e-05, 'epoch': 47.5}
+{'loss': 4.6016, 'grad_norm': 13.93199348449707, 'learning_rate': 5.585106382978723e-05, 'epoch': 48.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.316051483154297, 'eval_mlm_accuracy': 0.030303030303030304, 'eval_runtime': 0.425, 'eval_samples_per_second': 37.646, 'eval_steps_per_second': 4.706, 'epoch': 48.0}
+ 49%|██████████████████████████████▊                                | 98/200 [01:54<01:36,  1.06it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.4844, 'grad_norm': 10.052002906799316, 'learning_rate': 5.531914893617022e-05, 'epoch': 48.5}
+{'loss': 5.3008, 'grad_norm': 11.357956886291504, 'learning_rate': 5.478723404255319e-05, 'epoch': 49.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.629464149475098, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4219, 'eval_samples_per_second': 37.927, 'eval_steps_per_second': 4.741, 'epoch': 49.0}
+ 50%|███████████████████████████████                               | 100/200 [01:56<01:28,  1.14it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.4431, 'grad_norm': 15.135635375976562, 'learning_rate': 5.425531914893617e-05, 'epoch': 49.5}
+{'loss': 4.5534, 'grad_norm': 30.933191299438477, 'learning_rate': 5.3723404255319155e-05, 'epoch': 50.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 8.661079406738281, 'eval_mlm_accuracy': 0.07407407407407407, 'eval_runtime': 0.4388, 'eval_samples_per_second': 36.465, 'eval_steps_per_second': 4.558, 'epoch': 50.0}
+ 51%|███████████████████████████████▌                              | 102/200 [01:58<01:30,  1.08it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.9736, 'grad_norm': 14.946353912353516, 'learning_rate': 5.319148936170213e-05, 'epoch': 50.5}
+{'loss': 4.877, 'grad_norm': 9.351785659790039, 'learning_rate': 5.2659574468085106e-05, 'epoch': 51.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.159809112548828, 'eval_mlm_accuracy': 0.043478260869565216, 'eval_runtime': 0.4143, 'eval_samples_per_second': 38.623, 'eval_steps_per_second': 4.828, 'epoch': 51.0}
+ 52%|████████████████████████████████▏                             | 104/200 [02:01<01:32,  1.03it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.1674, 'grad_norm': 10.04935073852539, 'learning_rate': 5.212765957446809e-05, 'epoch': 51.5}
+{'loss': 4.3021, 'grad_norm': 12.902396202087402, 'learning_rate': 5.1595744680851065e-05, 'epoch': 52.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.923713684082031, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.479, 'eval_samples_per_second': 33.402, 'eval_steps_per_second': 4.175, 'epoch': 52.0}
+ 53%|████████████████████████████████▊                             | 106/200 [02:03<01:28,  1.07it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.7392, 'grad_norm': 10.526394844055176, 'learning_rate': 5.1063829787234044e-05, 'epoch': 52.5}
+{'loss': 4.3539, 'grad_norm': 10.00009536743164, 'learning_rate': 5.053191489361703e-05, 'epoch': 53.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.745279312133789, 'eval_mlm_accuracy': 0.045454545454545456, 'eval_runtime': 0.4379, 'eval_samples_per_second': 36.536, 'eval_steps_per_second': 4.567, 'epoch': 53.0}
+ 54%|█████████████████████████████████▍                            | 108/200 [02:06<01:40,  1.10s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.3197, 'grad_norm': 11.939326286315918, 'learning_rate': 5e-05, 'epoch': 53.5}
+{'loss': 3.8644, 'grad_norm': 12.120327949523926, 'learning_rate': 4.946808510638298e-05, 'epoch': 54.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.20793342590332, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.5167, 'eval_samples_per_second': 30.964, 'eval_steps_per_second': 3.87, 'epoch': 54.0}
+ 55%|██████████████████████████████████                            | 110/200 [02:08<01:38,  1.09s/it]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.487, 'grad_norm': 11.435110092163086, 'learning_rate': 4.893617021276596e-05, 'epoch': 54.5}
+{'loss': 4.2076, 'grad_norm': 12.01103687286377, 'learning_rate': 4.840425531914894e-05, 'epoch': 55.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.845880508422852, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4443, 'eval_samples_per_second': 36.014, 'eval_steps_per_second': 4.502, 'epoch': 55.0}
+ 56%|██████████████████████████████████▋                           | 112/200 [02:10<01:25,  1.02it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 5.7125, 'grad_norm': 18.33620262145996, 'learning_rate': 4.787234042553192e-05, 'epoch': 55.5}
+{'loss': 4.1628, 'grad_norm': 12.6104097366333, 'learning_rate': 4.734042553191489e-05, 'epoch': 56.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 10.774259567260742, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4193, 'eval_samples_per_second': 38.156, 'eval_steps_per_second': 4.77, 'epoch': 56.0}
+ 57%|███████████████████████████████████▎                          | 114/200 [02:13<01:20,  1.06it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.1484, 'grad_norm': 15.23292064666748, 'learning_rate': 4.680851063829788e-05, 'epoch': 56.5}
+{'loss': 4.1733, 'grad_norm': 9.343223571777344, 'learning_rate': 4.627659574468085e-05, 'epoch': 57.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.071996688842773, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4948, 'eval_samples_per_second': 32.338, 'eval_steps_per_second': 4.042, 'epoch': 57.0}
+ 58%|███████████████████████████████████▉                          | 116/200 [02:15<01:19,  1.06it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 4.5449, 'grad_norm': 10.18252182006836, 'learning_rate': 4.574468085106383e-05, 'epoch': 57.5}
+{'loss': 3.3192, 'grad_norm': 9.880485534667969, 'learning_rate': 4.5212765957446815e-05, 'epoch': 58.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.770833969116211, 'eval_mlm_accuracy': 0.037037037037037035, 'eval_runtime': 0.4162, 'eval_samples_per_second': 38.447, 'eval_steps_per_second': 4.806, 'epoch': 58.0}
+ 59%|████████████████████████████████████▌                         | 118/200 [02:17<01:17,  1.05it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+{'loss': 3.5835, 'grad_norm': 12.512499809265137, 'learning_rate': 4.468085106382979e-05, 'epoch': 58.5}
+{'loss': 4.4622, 'grad_norm': 12.003823280334473, 'learning_rate': 4.414893617021277e-05, 'epoch': 59.0}
+  return forward_call(*args, **kwargs)                                                               
+{'eval_loss': 9.90841293334961, 'eval_mlm_accuracy': 0.0, 'eval_runtime': 0.4113, 'eval_samples_per_second': 38.905, 'eval_steps_per_second': 4.863, 'epoch': 59.0}

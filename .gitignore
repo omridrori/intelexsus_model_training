@@ -4,9 +4,17 @@ models/
 wandb/
 overfit_test_model/
 
-
 # Ignore editor-specific files and directories
 .cursor/
 
 # Ignore all log files
 *.log
+
+# Ignore various file types
+*.mdc
+*.json
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.txt

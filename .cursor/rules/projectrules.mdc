@@ -1,8 +1,7 @@
 ---
-alwaysApply: true
+description: only if not in sandbox
+alwaysApply: false
 ---
-
-
 ### **The Complete & Final Prompt for AI Code Assistant (V3)**
 
 **Hello. You are my expert AI assistant for a new NLP project. This document contains the complete and final set of instructions that you must follow for our entire collaboration. Your primary mission is to help me build a foundational language model for Sanskrit and Tibetan by adhering to the principles of structured, reproducible, and clean work.**
@@ -50,24 +49,44 @@ This directory contains only production-quality, final, and reliable code.
 
 ```
 project_root/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── config/
-│   └── sanskrit_from_scratch.yaml
-├── sandbox/                        # (In .gitignore)
-│   └── tokenizer_experiments/
-│       ├── README.md
-│       └── bpe_vs_wordpiece/
-│           ├── run_bpe_test.py
-│           └── outputs/
-│               ├── plots/
-│               │   └── convergence.png
-│               └── results/
-│                   └── bpe_vocab_size.csv
-└── src/
-    └── ... (as defined before)
-```
+│
+├── .gitignore              # Specifies files/directories for Git to ignore.
+│
+├── README.md               # Main project documentation: setup, usage, and overview.
+│
+├── requirements.txt        # Lists all Python dependencies for easy installation.
+│
+├── config/                 # Directory for all configuration files.
+│   └── train_sanskrit_v1.yaml # Example: a YAML file with all hyperparameters for a training run.
+│
+├── data/                   # (Ignored by Git) For all project data.
+│   ├── raw/                # Original, untouched data files.
+│   └── processed/          # Data after cleaning, tokenization, and preparation.
+│
+├── models/                 # (Ignored by Git) For saved model weights and tokenizers.
+│   └── sanskrit_v1/        # Example: a directory for a specific model's assets.
+│
+├── sandbox/                # (Ignored by Git) For research, prototyping, and experiments.
+│   └── tokenizer_experiments/ # Example of a self-contained experiment.
+│       ├── README.md       # Documents the goal and findings of this specific experiment.
+│       ├── compare_bpe_vs_wordpiece.py # An experimental script.
+│       └── outputs/        # All generated files from this experiment.
+│           ├── plots/      # To store generated graphs and charts.
+│           └── results/    # To store CSV files, logs, or text results.
+│
+└── src/                    # The main source code for the project (production-quality).
+    ├── __init__.py         # Makes 'src' a Python package.
+    │
+    ├── data_loader.py      # Functions for loading and preprocessing data.
+    │
+    ├── tokenizer.py        # Script to train and save a new tokenizer.
+    │
+    ├── model.py            # Defines the neural network architecture (e.g., the Transformer model).
+    │
+    ├── train.py            # Main script to execute a model training run (reads from a config file).
+    │
+    └── evaluate.py         # Script to evaluate a trained model on the downstream task.
+
 
 **Crucial Note:** The `.gitignore` file must contain `data/`, `models/`, and `sandbox/`.
 
