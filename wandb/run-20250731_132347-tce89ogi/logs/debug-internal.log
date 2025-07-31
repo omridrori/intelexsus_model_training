@@ -1,0 +1,12 @@
+{"time":"2025-07-31T13:23:48.074665+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T13:23:48.407144+03:00","level":"INFO","msg":"stream: created new stream","id":"tce89ogi"}
+{"time":"2025-07-31T13:23:48.407144+03:00","level":"INFO","msg":"stream: started","id":"tce89ogi"}
+{"time":"2025-07-31T13:23:48.4072701+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:23:48.4072701+03:00","level":"INFO","msg":"handler: started","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:23:48.4072701+03:00","level":"INFO","msg":"sender: started","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:24:08.059962+03:00","level":"INFO","msg":"stream: closing","id":"tce89ogi"}
+{"time":"2025-07-31T13:24:08.7473909+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T13:24:09.2917378+03:00","level":"INFO","msg":"sender: closed","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:24:09.2922413+03:00","level":"INFO","msg":"handler: closed","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:24:09.2922413+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tce89ogi"}
+{"time":"2025-07-31T13:24:09.2980094+03:00","level":"INFO","msg":"stream: closed","id":"tce89ogi"}

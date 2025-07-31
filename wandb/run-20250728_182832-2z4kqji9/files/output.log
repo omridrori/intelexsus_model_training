@@ -1,0 +1,63 @@
+  0%|                                                                                                                | 0/1825794 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  0%|                                                                                                  | 200/1825794 [02:18<206:33:23,  2.46it/s]Traceback (most recent call last):
+{'loss': 10.3315, 'grad_norm': 19.00470733642578, 'learning_rate': 4.3750000000000005e-08, 'epoch': 0.0}
+{'loss': 11.4826, 'grad_norm': 18.457014083862305, 'learning_rate': 9.375e-08, 'epoch': 0.0}
+{'loss': 10.5362, 'grad_norm': 17.398422241210938, 'learning_rate': 1.4375000000000003e-07, 'epoch': 0.0}
+{'loss': 16.0171, 'grad_norm': 15.339488983154297, 'learning_rate': 1.9375000000000002e-07, 'epoch': 0.0}
+{'loss': 11.3369, 'grad_norm': 20.538530349731445, 'learning_rate': 2.4375000000000005e-07, 'epoch': 0.0}
+{'loss': 10.4668, 'grad_norm': 18.078092575073242, 'learning_rate': 2.9375e-07, 'epoch': 0.0}
+{'loss': 12.5929, 'grad_norm': 14.23182487487793, 'learning_rate': 3.4375000000000004e-07, 'epoch': 0.0}
+{'loss': 10.4849, 'grad_norm': 14.416190147399902, 'learning_rate': 3.9375000000000004e-07, 'epoch': 0.0}
+{'loss': 10.41, 'grad_norm': 16.725976943969727, 'learning_rate': 4.4375000000000004e-07, 'epoch': 0.0}
+{'loss': 15.8665, 'grad_norm': 18.05258560180664, 'learning_rate': 4.9375e-07, 'epoch': 0.0}
+{'loss': 13.7809, 'grad_norm': 12.652639389038086, 'learning_rate': 5.437500000000001e-07, 'epoch': 0.0}
+{'loss': 10.4036, 'grad_norm': 18.183652877807617, 'learning_rate': 5.9375e-07, 'epoch': 0.0}
+{'loss': 10.4001, 'grad_norm': 16.116403579711914, 'learning_rate': 6.437500000000001e-07, 'epoch': 0.0}
+{'loss': 12.1791, 'grad_norm': 14.36182689666748, 'learning_rate': 6.937500000000001e-07, 'epoch': 0.0}
+{'loss': 13.707, 'grad_norm': 15.722877502441406, 'learning_rate': 7.437500000000001e-07, 'epoch': 0.0}
+{'loss': 14.0424, 'grad_norm': 17.04899787902832, 'learning_rate': 7.9375e-07, 'epoch': 0.0}
+{'loss': 11.9416, 'grad_norm': 14.83151626586914, 'learning_rate': 8.437500000000001e-07, 'epoch': 0.0}
+{'loss': 12.413, 'grad_norm': 13.108234405517578, 'learning_rate': 8.9375e-07, 'epoch': 0.0}
+{'loss': 10.8688, 'grad_norm': 12.936655044555664, 'learning_rate': 9.437500000000001e-07, 'epoch': 0.0}
+{'loss': 11.3189, 'grad_norm': 19.179386138916016, 'learning_rate': 9.937500000000002e-07, 'epoch': 0.0}
+{'loss': 12.3103, 'grad_norm': 15.103992462158203, 'learning_rate': 1.04375e-06, 'epoch': 0.0}
+{'loss': 12.042, 'grad_norm': 12.498762130737305, 'learning_rate': 1.0937500000000001e-06, 'epoch': 0.0}
+{'loss': 10.2207, 'grad_norm': 13.8282470703125, 'learning_rate': 1.14375e-06, 'epoch': 0.0}
+{'loss': 12.5539, 'grad_norm': 15.808259010314941, 'learning_rate': 1.19375e-06, 'epoch': 0.0}
+{'loss': 13.6293, 'grad_norm': 11.704595565795898, 'learning_rate': 1.2437500000000002e-06, 'epoch': 0.0}
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 68, in <module>0/200 [01:59<1:07:19, 21.26s/it]
+    main()
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 52, in main
+    run_training(
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 93, in run_training
+    trainer.train()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2660, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3133, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3082, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4242, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4427, in evaluation_loop
+    for step, inputs in enumerate(dataloader):
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\accelerate\data_loader.py", line 577, in __iter__
+    current_batch = send_to_device(current_batch, self.device, non_blocking=self._non_blocking)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\accelerate\utils\operations.py", line 153, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\tokenization_utils_base.py", line 809, in to
+    self.data = {
+                ^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\tokenization_utils_base.py", line 810, in <dictcomp>
+    k: v.to(device=device, non_blocking=non_blocking) if hasattr(v, "to") and callable(v.to) else v
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

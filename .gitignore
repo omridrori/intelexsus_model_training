@@ -2,3 +2,10 @@
 data/
 models/
 sandbox/ 
+*.mdc
+*.json
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.txt

@@ -1,0 +1,20 @@
+  0%|                                                                                                                 | 0/339684 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  0%|                                                                                                   | 218/339684 [10:05<201:40:08,  2.14s/it]Traceback (most recent call last):
+{'loss': 44.9894, 'grad_norm': 7.742488384246826, 'learning_rate': 1.0303208713570798e-07, 'epoch': 0.0}
+{'loss': 52.5462, 'grad_norm': 7.8283257484436035, 'learning_rate': 2.0851731920321854e-07, 'epoch': 0.0}
+{'loss': 66.3372, 'grad_norm': 8.20400619506836, 'learning_rate': 3.1400255127072906e-07, 'epoch': 0.0}
+{'loss': 40.8279, 'grad_norm': 6.437498092651367, 'learning_rate': 4.194877833382397e-07, 'epoch': 0.0}
+{'loss': 99.7332, 'grad_norm': 6.564583778381348, 'learning_rate': 5.249730154057502e-07, 'epoch': 0.0}
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 69, in <module>
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 53, in main
+    model_config=model_config,
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 93, in run_training
+    trainer.train()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2583, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

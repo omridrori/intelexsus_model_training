@@ -1,0 +1,118 @@
+  0%|                                                                                                                | 0/1369344 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+                                                                                                                                                 
+{'loss': 11.5637, 'grad_norm': 13.027390480041504, 'learning_rate': 9.999970788932512e-06, 'epoch': 0.0}
+{'loss': 25.1518, 'grad_norm': 11.852484703063965, 'learning_rate': 9.99993427509815e-06, 'epoch': 0.0}
+{'loss': 17.4341, 'grad_norm': 10.548935890197754, 'learning_rate': 9.999897761263788e-06, 'epoch': 0.0}
+{'loss': 51.9139, 'grad_norm': 9.851737976074219, 'learning_rate': 9.999861247429427e-06, 'epoch': 0.0}
+{'loss': 30.2291, 'grad_norm': 9.210420608520508, 'learning_rate': 9.999824733595065e-06, 'epoch': 0.0}
+{'loss': 33.6562, 'grad_norm': 9.757997512817383, 'learning_rate': 9.999788219760703e-06, 'epoch': 0.0}
+{'loss': 16.3613, 'grad_norm': 8.938626289367676, 'learning_rate': 9.999751705926343e-06, 'epoch': 0.0}
+{'loss': 40.2616, 'grad_norm': 8.052373886108398, 'learning_rate': 9.999715192091981e-06, 'epoch': 0.0}
+{'loss': 34.6549, 'grad_norm': 8.143818855285645, 'learning_rate': 9.99967867825762e-06, 'epoch': 0.0}
+{'loss': 27.5425, 'grad_norm': 6.751369953155518, 'learning_rate': 9.999642164423257e-06, 'epoch': 0.0}
+{'loss': 31.9765, 'grad_norm': 6.8567585945129395, 'learning_rate': 9.999605650588895e-06, 'epoch': 0.0}
+{'loss': 55.758, 'grad_norm': 8.047721862792969, 'learning_rate': 9.999569136754535e-06, 'epoch': 0.0}
+{'loss': 60.2459, 'grad_norm': 8.205707550048828, 'learning_rate': 9.999532622920173e-06, 'epoch': 0.0}
+{'loss': 15.7008, 'grad_norm': 7.258450984954834, 'learning_rate': 9.999496109085811e-06, 'epoch': 0.0}
+{'loss': 31.1721, 'grad_norm': 8.3522310256958, 'learning_rate': 9.999459595251449e-06, 'epoch': 0.0}
+{'loss': 19.118, 'grad_norm': 8.05202579498291, 'learning_rate': 9.999423081417087e-06, 'epoch': 0.0}
+{'loss': 17.6281, 'grad_norm': 7.442531108856201, 'learning_rate': 9.999386567582727e-06, 'epoch': 0.0}
+{'loss': 21.6375, 'grad_norm': 8.075736999511719, 'learning_rate': 9.999350053748365e-06, 'epoch': 0.0}
+{'loss': 17.0036, 'grad_norm': 6.968491077423096, 'learning_rate': 9.999313539914003e-06, 'epoch': 0.0}
+{'loss': 48.4993, 'grad_norm': 7.733845233917236, 'learning_rate': 9.999277026079643e-06, 'epoch': 0.0}
+{'loss': 14.742, 'grad_norm': 6.708558559417725, 'learning_rate': 9.99924051224528e-06, 'epoch': 0.0}
+{'loss': 14.1182, 'grad_norm': 7.4146952629089355, 'learning_rate': 9.999203998410919e-06, 'epoch': 0.0}
+{'loss': 28.4196, 'grad_norm': 7.891454696655273, 'learning_rate': 9.999167484576557e-06, 'epoch': 0.0}
+{'loss': 15.0615, 'grad_norm': 7.337969779968262, 'learning_rate': 9.999130970742197e-06, 'epoch': 0.0}
+{'loss': 14.724, 'grad_norm': 8.668293952941895, 'learning_rate': 9.999094456907835e-06, 'epoch': 0.0}
+{'loss': 19.4596, 'grad_norm': 7.4505133628845215, 'learning_rate': 9.999057943073473e-06, 'epoch': 0.0}
+{'loss': 12.4557, 'grad_norm': 9.364154815673828, 'learning_rate': 9.99902142923911e-06, 'epoch': 0.0}
+{'loss': 31.7124, 'grad_norm': 8.254645347595215, 'learning_rate': 9.998984915404749e-06, 'epoch': 0.0}
+{'loss': 41.378, 'grad_norm': 7.134093284606934, 'learning_rate': 9.998948401570387e-06, 'epoch': 0.0}
+{'loss': 18.309, 'grad_norm': 7.015607833862305, 'learning_rate': 9.998911887736026e-06, 'epoch': 0.0}
+{'loss': 47.1059, 'grad_norm': 6.404189586639404, 'learning_rate': 9.998875373901664e-06, 'epoch': 0.0}
+{'loss': 37.688, 'grad_norm': 7.17539119720459, 'learning_rate': 9.998838860067304e-06, 'epoch': 0.0}
+{'loss': 41.864, 'grad_norm': 7.34955358505249, 'learning_rate': 9.998802346232942e-06, 'epoch': 0.0}
+{'loss': 64.6595, 'grad_norm': 8.734436988830566, 'learning_rate': 9.99876583239858e-06, 'epoch': 0.0}
+{'loss': 33.0792, 'grad_norm': 6.681312084197998, 'learning_rate': 9.998729318564218e-06, 'epoch': 0.0}
+{'loss': 41.8599, 'grad_norm': 6.8311767578125, 'learning_rate': 9.998692804729856e-06, 'epoch': 0.0}
+{'loss': 24.6671, 'grad_norm': 7.367125988006592, 'learning_rate': 9.998656290895496e-06, 'epoch': 0.0}
+{'loss': 26.4543, 'grad_norm': 7.404634475708008, 'learning_rate': 9.998619777061134e-06, 'epoch': 0.0}
+{'loss': 21.2235, 'grad_norm': 6.432609558105469, 'learning_rate': 9.998583263226772e-06, 'epoch': 0.0}
+{'loss': 23.2748, 'grad_norm': 7.399426460266113, 'learning_rate': 9.99854674939241e-06, 'epoch': 0.0}
+{'loss': 22.2328, 'grad_norm': 5.924661159515381, 'learning_rate': 9.998510235558048e-06, 'epoch': 0.0}
+{'loss': 27.5829, 'grad_norm': 8.563153266906738, 'learning_rate': 9.998473721723688e-06, 'epoch': 0.0}
+{'loss': 24.0481, 'grad_norm': 7.712852478027344, 'learning_rate': 9.998437207889326e-06, 'epoch': 0.0}
+{'loss': 26.1387, 'grad_norm': 6.324323654174805, 'learning_rate': 9.998400694054964e-06, 'epoch': 0.0}
+{'loss': 24.3124, 'grad_norm': 6.793111324310303, 'learning_rate': 9.998364180220604e-06, 'epoch': 0.0}
+{'loss': 18.3909, 'grad_norm': 7.510074138641357, 'learning_rate': 9.998327666386242e-06, 'epoch': 0.0}
+{'loss': 17.2364, 'grad_norm': 6.6194353103637695, 'learning_rate': 9.99829115255188e-06, 'epoch': 0.0}
+{'loss': 11.2544, 'grad_norm': 6.130406856536865, 'learning_rate': 9.998254638717518e-06, 'epoch': 0.0}
+{'loss': 22.6487, 'grad_norm': 7.974789142608643, 'learning_rate': 9.998218124883156e-06, 'epoch': 0.0}
+{'loss': 35.0396, 'grad_norm': 6.92198371887207, 'learning_rate': 9.998181611048796e-06, 'epoch': 0.0}
+{'loss': 51.0067, 'grad_norm': 6.0461273193359375, 'learning_rate': 9.998145097214434e-06, 'epoch': 0.0}
+{'loss': 35.2742, 'grad_norm': 7.076783180236816, 'learning_rate': 9.998108583380072e-06, 'epoch': 0.0}
+{'loss': 43.2925, 'grad_norm': 5.574564456939697, 'learning_rate': 9.99807206954571e-06, 'epoch': 0.0}
+{'loss': 24.3379, 'grad_norm': 6.8740129470825195, 'learning_rate': 9.998035555711348e-06, 'epoch': 0.0}
+{'loss': 16.4529, 'grad_norm': 7.913444519042969, 'learning_rate': 9.997999041876987e-06, 'epoch': 0.0}
+{'loss': 16.6284, 'grad_norm': 6.951296806335449, 'learning_rate': 9.997962528042626e-06, 'epoch': 0.0}
+{'loss': 13.3525, 'grad_norm': 6.821026802062988, 'learning_rate': 9.997926014208265e-06, 'epoch': 0.0}
+{'loss': 29.9985, 'grad_norm': 8.210603713989258, 'learning_rate': 9.997889500373903e-06, 'epoch': 0.0}
+{'loss': 34.0228, 'grad_norm': 6.982637405395508, 'learning_rate': 9.997852986539541e-06, 'epoch': 0.0}
+{'loss': 45.252, 'grad_norm': 6.522789478302002, 'learning_rate': 9.99781647270518e-06, 'epoch': 0.0}
+{'loss': 40.4106, 'grad_norm': 5.783009052276611, 'learning_rate': 9.997779958870817e-06, 'epoch': 0.0}
+{'loss': 35.6175, 'grad_norm': 5.493722915649414, 'learning_rate': 9.997743445036457e-06, 'epoch': 0.0}
+{'loss': 24.3487, 'grad_norm': 7.35756778717041, 'learning_rate': 9.997706931202095e-06, 'epoch': 0.0}
+{'loss': 20.0548, 'grad_norm': 7.244848251342773, 'learning_rate': 9.997670417367733e-06, 'epoch': 0.0}
+{'loss': 74.6444, 'grad_norm': 7.5414299964904785, 'learning_rate': 9.997633903533371e-06, 'epoch': 0.0}
+{'loss': 23.6924, 'grad_norm': 6.682760715484619, 'learning_rate': 9.99759738969901e-06, 'epoch': 0.0}
+{'loss': 49.7467, 'grad_norm': 6.516571521759033, 'learning_rate': 9.997560875864647e-06, 'epoch': 0.0}
+{'loss': 30.0803, 'grad_norm': 6.049664497375488, 'learning_rate': 9.997524362030287e-06, 'epoch': 0.0}
+{'loss': 18.3587, 'grad_norm': 6.204331874847412, 'learning_rate': 9.997487848195925e-06, 'epoch': 0.0}
+{'loss': 33.4631, 'grad_norm': 5.87821102142334, 'learning_rate': 9.997451334361565e-06, 'epoch': 0.0}
+{'loss': 22.7817, 'grad_norm': 6.063627243041992, 'learning_rate': 9.997414820527203e-06, 'epoch': 0.0}
+{'loss': 24.5137, 'grad_norm': 7.670522689819336, 'learning_rate': 9.99737830669284e-06, 'epoch': 0.0}
+{'loss': 37.9593, 'grad_norm': 5.160671710968018, 'learning_rate': 9.997341792858479e-06, 'epoch': 0.0}
+{'loss': 15.4561, 'grad_norm': 6.706299781799316, 'learning_rate': 9.997305279024117e-06, 'epoch': 0.0}
+{'loss': 45.3235, 'grad_norm': 6.05744743347168, 'learning_rate': 9.997268765189757e-06, 'epoch': 0.0}
+{'loss': 22.8681, 'grad_norm': 6.555182933807373, 'learning_rate': 9.997232251355395e-06, 'epoch': 0.0}
+{'loss': 24.4665, 'grad_norm': 5.761880397796631, 'learning_rate': 9.997195737521033e-06, 'epoch': 0.0}
+{'loss': 76.9402, 'grad_norm': 5.765350341796875, 'learning_rate': 9.99715922368667e-06, 'epoch': 0.0}
+{'loss': 35.1895, 'grad_norm': 7.31693696975708, 'learning_rate': 9.997122709852309e-06, 'epoch': 0.0}
+{'loss': 43.9246, 'grad_norm': 5.995439052581787, 'learning_rate': 9.997086196017948e-06, 'epoch': 0.0}
+{'loss': 26.1302, 'grad_norm': 6.184539794921875, 'learning_rate': 9.997049682183587e-06, 'epoch': 0.0}
+{'loss': 45.4127, 'grad_norm': 6.869593620300293, 'learning_rate': 9.997013168349225e-06, 'epoch': 0.0}
+{'loss': 37.2313, 'grad_norm': 6.223381996154785, 'learning_rate': 9.996976654514864e-06, 'epoch': 0.0}
+{'loss': 29.0305, 'grad_norm': 6.00751256942749, 'learning_rate': 9.996940140680502e-06, 'epoch': 0.0}
+{'loss': 16.2314, 'grad_norm': 6.315433025360107, 'learning_rate': 9.99690362684614e-06, 'epoch': 0.0}
+{'loss': 24.6679, 'grad_norm': 7.50403356552124, 'learning_rate': 9.996867113011778e-06, 'epoch': 0.0}
+{'loss': 47.1489, 'grad_norm': 6.058050155639648, 'learning_rate': 9.996830599177416e-06, 'epoch': 0.0}
+{'loss': 22.0933, 'grad_norm': 6.384802341461182, 'learning_rate': 9.996794085343056e-06, 'epoch': 0.0}
+{'loss': 31.5683, 'grad_norm': 5.578967094421387, 'learning_rate': 9.996757571508694e-06, 'epoch': 0.0}
+{'loss': 18.295, 'grad_norm': 7.25541353225708, 'learning_rate': 9.996721057674332e-06, 'epoch': 0.0}
+{'loss': 45.6942, 'grad_norm': 5.6449127197265625, 'learning_rate': 9.99668454383997e-06, 'epoch': 0.0}
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 65, in <module>
+    else:
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 49, in main
+    tokenized_dataset_path = os.path.join(sanskrit_dir, 'data', 'tokenized_dataset')
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 93, in run_training
+    trainer.train()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2578, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3840, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\accelerate\accelerator.py", line 2574, in backward
+    self.scaler.scale(loss).backward(**kwargs)
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

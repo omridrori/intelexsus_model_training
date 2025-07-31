@@ -1,0 +1,43 @@
+  0%|                                                                                                                | 0/2465091 [00:00<?, ?it/s]C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\nn\modules\module.py:1747: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+  0%|                                                                                                   | 10/2465091 [00:59<725:41:09,  1.06s/it]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x00000214081DBA60>
+{'loss': 15.6537, 'grad_norm': 10.045461654663086, 'learning_rate': 4.9999918867092535e-05, 'epoch': 0.0}
+{'loss': 17.3913, 'grad_norm': 8.455836296081543, 'learning_rate': 4.99998174509582e-05, 'epoch': 0.0}
+Traceback (most recent call last):                                                                      | 113/730397 [03:11<702:11:45,  3.46s/it]
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\torch\utils\data\dataloader.py", line 1603, in __del__
+    def __del__(self):
+
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 72, in <module>
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\train_model.py", line 54, in main
+    eval_split_ratio=0.1 # Split 10% of the data for evaluation
+  File "c:\Users\omrid\Desktop\university\intelexsus\sandbox\sanskrit\model\training_utils.py", line 114, in run_training
+    train_dataset = split_dataset['train']
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2237, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 2660, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3133, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 3082, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4242, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer.py", line 4489, in evaluation_loop
+    all_preds.to_cpu_and_numpy()
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 332, in to_cpu_and_numpy
+    self.arrays = nested_concat(self.arrays, new_arrays, padding_index=self.padding_index)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 137, in nested_concat
+    return numpy_pad_and_concatenate(tensors, new_tensors, padding_index=padding_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omrid\miniconda3\envs\INTELEXSUS\Lib\site-packages\transformers\trainer_pt_utils.py", line 107, in numpy_pad_and_concatenate
+    return np.concatenate((array1, array2), axis=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
