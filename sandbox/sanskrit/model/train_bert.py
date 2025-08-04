@@ -51,12 +51,12 @@ training_args = TrainingArguments(
     # Additional optimizations
     dataloader_num_workers=4,
     warmup_ratio=0.01,
-    learning_rate=7e-4,
+    learning_rate=5e-5,
     weight_decay=0.01,
     max_grad_norm=1.0,
 )
 
-# --- 4. Main Training Function (No Changes) ---
+# --- 4. Main Training Function (Upgraded with Robust Resume Logic) ---
 def main():
     # Set up logging
     logging.basicConfig(level=logging.INFO)
@@ -93,7 +93,6 @@ def main():
     print(f"Dataset loaded with {len(dataset['train'])} examples")
 
     def tokenize_function(examples):
-        """Tokenize the text with progress tracking"""
         return tokenizer(
             examples["text"], 
             truncation=True, 
@@ -124,11 +123,24 @@ def main():
     )
 
     print("\n=== Starting Model Training ===")
-    print(f"Training for {training_args.num_train_epochs} epochs")
-    print(f"Effective batch size: {training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps}")
-    print(f"Steps per epoch: {len(tokenized_dataset['train']) // (training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps)}")
     
-    trainer.train()
+    # --- ✨ New and Important Logic for Training Resume ---
+    latest_checkpoint = None
+    output_dir = Path(training_args.output_dir)
+    if output_dir.exists() and any(output_dir.iterdir()):
+        # Find all checkpoint directories
+        checkpoints = [p for p in output_dir.glob("checkpoint-*") if p.is_dir()]
+        if checkpoints:
+            # Sort them by step number to find the latest
+            latest_checkpoint = max(checkpoints, key=lambda p: int(p.name.split('-')[-1]))
+            print(f"✅ Resuming training from the latest checkpoint: {latest_checkpoint}")
+        else:
+            print("No checkpoint found, starting training from scratch.")
+    # -----------------------------------------------
+
+    # If we found a checkpoint, use it. Otherwise, start from scratch.
+    trainer.train(resume_from_checkpoint=str(latest_checkpoint) if latest_checkpoint else None)
+    
     print("=== Training Finished ===")
     
     final_model_path = Path(MODEL_OUTPUT_DIR) / "final_model"
