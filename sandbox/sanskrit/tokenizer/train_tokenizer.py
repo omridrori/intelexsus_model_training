@@ -42,4 +42,4 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 tokenizer.save_model(output_dir)
 print(f"Step 4 completed: Tokenizer saved to {os.path.abspath(output_dir)}")
-print(f"The vocabulary file (vocab.txt) can be found in the '{output_dir}' directory.") 
+print(f"The vocabulary file (vocab.txt) can be found in the '{output_dir}' directory.")
