@@ -7,7 +7,7 @@ rest of the code will follow automatically.
 """
 from pathlib import Path
 
-# Base directory of the *package* (…/intelexsus/sanscrit)
+
 BASE_DIR = Path(__file__).resolve().parent
 
 # ----------------------------------------------------------------------------

@@ -1,7 +1,4 @@
 # Sanskrit NLP Package (`sanscrit`)
-
-Modular, production-ready toolkit for preprocessing Sanskrit corpora and pre-training Transformer models from scratch.
-
 ---
 
 ## Installation (development mode)
@@ -81,16 +78,4 @@ sanscrit/
 
 Because everything is function-based, new workflows can be scripted with a few lines of code.
 
----
 
-## Contributing
-
-• Follow [PEP8](https://peps.python.org/pep-0008/) conventions (we ignore the project linter for now).  
-• All print/log messages **must be in English**.  
-• Progress bars (`tqdm`) are preferred for long-running loops.
-
----
-
-## License
-
-MIT © 2024 Your Name
