@@ -20,3 +20,6 @@ overfit_test_model/
 *.txt
 sanscrit/__pycache__/__init__.cpython-311.pyc
 *.pyc
+
+wandb/
+.cursor/
