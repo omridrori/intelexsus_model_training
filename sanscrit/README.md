@@ -21,6 +21,7 @@ The full pre-training pipeline consists of **three** independent steps. Each ste
 | 1. Preprocess | Clean raw JSONL documents, split into ~40-word chunks | `python -m sanscrit.cli.preprocess` | `sanscrit.preprocessing.run_preprocessing()` |
 | 2. Pack | Tokenise chunks and concatenate until ≤ 512 tokens | `python -m sanscrit.cli.pack_tokens` | `sanscrit.preprocessing.pack_chunks_to_sequences()` |
 | 3. Train | Pre-train BERT-MLM from scratch | `python -m sanscrit.cli.train_bert` | `sanscrit.model.pretrain.pretrain_bert()` |
+| 3b. Continual | Continue pre-training mBERT on Sanskrit | `python -m sanscrit.cli.train_bert_continual` | `sanscrit.model.pretrain_continual.continual_pretrain_mbert()` |
 
 All paths (raw data, processed data, tokenizer, checkpoints) live in `sanscrit.config`. Override them via keyword arguments or command-line flags if needed.
 
@@ -35,6 +36,9 @@ python -m sanscrit.cli.pack_tokens
 
 # 3) Train BERT
 python -m sanscrit.cli.train_bert --epochs 5
+
+# 3b) Continual pre-train mBERT (optional)
+python -m sanscrit.cli.train_bert_continual --epochs 3
 ```
 
 ---
@@ -70,12 +74,6 @@ sanscrit/
 
 ---
 
-## Extending the Toolkit
 
-1. **Continual pre-training** – create a new module `sanscrit.model.continual.py` reusing utilities from `pretrain.py`.
-2. **Multilingual models (Sanskrit + Tibetan)** – share tokeniser or introduce a `config.MULTI_VOCAB_SIZE` and adapt the packing script.
-3. **Downstream evaluation** – add a `cli/evaluate.py` that loads checkpoints and benchmarks on a task of your choice.
-
-Because everything is function-based, new workflows can be scripted with a few lines of code.
 
 

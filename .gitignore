@@ -18,3 +18,5 @@ overfit_test_model/
 *.safetensors
 *.bin
 *.txt
+sanscrit/__pycache__/__init__.cpython-311.pyc
+*.pyc

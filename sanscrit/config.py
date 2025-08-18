@@ -1,10 +1,4 @@
-"""Shared configuration and paths used across the package.
 
-All important locations (raw data, processed data, tokenizer, model
-checkpoints, etc.) are centralised here so that every sub-module imports
-and stays in sync.  Update these paths once when moving folders and the
-rest of the code will follow automatically.
-"""
 from pathlib import Path
 
 
@@ -26,9 +20,14 @@ TOKENIZER_PATH = BASE_DIR / "sanskrit-bert-tokenizer"
 MODEL_OUTPUT_DIR = BASE_DIR / "sanskrit-bert-from-scratch"
 MODEL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+# For continual pre-training with mBERT
+CONTINUAL_OUTPUT_DIR = BASE_DIR.parent / "mbert-sanskrit-continual"
+CONTINUAL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 # ----------------------------------------------------------------------------
 # Training / Experiment tracking ------------------------------------------------
 WANDB_PROJECT_NAME = "Sanskrit-BERT-Pretraining"
+WANDB_PROJECT_NAME_CONTINUAL = "Sanskrit-mBERT-Continual"
 
 # Default filenames inside PROCESSED_DIR
 CHUNKS_FILE = PROCESSED_DIR / "sanskrit_chunks_final.txt"
