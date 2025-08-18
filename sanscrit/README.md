@@ -37,7 +37,7 @@ python -m sanscrit.cli.pack_tokens
 # 3) Train BERT
 python -m sanscrit.cli.train_bert --epochs 5
 
-# 3b) Continual pre-train mBERT (optional)
+# 3b) Continual pre-train mBERT 
 python -m sanscrit.cli.train_bert_continual --epochs 3
 ```
 
