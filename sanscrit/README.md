@@ -22,6 +22,7 @@ The full pre-training pipeline consists of **three** independent steps. Each ste
 | 2. Pack | Tokenise chunks and concatenate until ≤ 512 tokens | `python -m sanscrit.cli.pack_tokens` | `sanscrit.preprocessing.pack_chunks_to_sequences()` |
 | 3. Train | Pre-train BERT-MLM from scratch | `python -m sanscrit.cli.train_bert` | `sanscrit.model.pretrain.pretrain_bert()` |
 | 3b. Continual | Continue pre-training mBERT on Sanskrit | `python -m sanscrit.cli.train_bert_continual` | `sanscrit.model.pretrain_continual.continual_pretrain_mbert()` |
+| 4. Down-stream FT | Fine-tune any checkpoint on *root-vs-commentary* & log metrics | `python -m sanscrit.cli.fine_tune_root_commentary --model <ckpt> --tokenizer <tok> --out <dir>` | `sanscrit.model.downstream.fine_tune_root_commentary()` |
 
 All paths (raw data, processed data, tokenizer, checkpoints) live in `sanscrit.config`. Override them via keyword arguments or command-line flags if needed.
 
@@ -40,6 +41,25 @@ python -m sanscrit.cli.train_bert --epochs 5
 # 3b) Continual pre-train mBERT 
 python -m sanscrit.cli.train_bert_continual --epochs 3
 ```
+
+### Fine-tuning on the *Root ↔ Commentary* downstream task
+
+Run the helper CLI once for **each** checkpoint you want to compare. 
+
+```bash
+# 1) Continual-pretrained mBERT
+python -m sanscrit.cli.fine_tune_root_commentary --model mbert-sanskrit-continual/final_model --tokenizer sanscrit/sanskrit-bert-tokenizer --out experiments/continual_mbert
+
+# 2) Baseline mBERT (HF)
+python -m sanscrit.cli.fine_tune_root_commentary --model bert-base-multilingual-cased --tokenizer bert-base-multilingual-cased --out experiments/baseline_mbert
+
+# 3) Sanskrit-BERT trained *from scratch*
+python -m sanscrit.cli.fine_tune_root_commentary --model sanskrit-bert-from-scratch/final_model --tokenizer sanscrit/sanskrit-bert-tokenizer --out experiments/sanskrit_scratch
+```
+
+ 
+
+Each directory written to `--out` will contain a `log_history.json` (for plotting) and a `final_model/` folder with the fine-tuned weights.
 
 ---
 
@@ -73,6 +93,37 @@ sanscrit/
 ```
 
 ---
+
+### Comparing multiple checkpoints
+
+After running fine-tuning for several checkpoints (e.g. baseline mBERT, continual-pretrained mBERT, and the Sanskrit-BERT-from-scratch model) you will have three directories like:
+
+```
+experiments/
+├── baseline_mbert/
+│   └── log_history.json
+├── continual_mbert/
+│   └── log_history.json
+└── sanskrit_scratch/
+    └── log_history.json
+```
+
+Use the helper below to **plot accuracy vs steps** for an arbitrary list of runs:
+
+```python
+from pathlib import Path
+from sanscrit.utils.plotting import plot_accuracy_curves
+
+plot_accuracy_curves(
+    runs={
+        "Baseline mBERT": Path("experiments/baseline_mbert/log_history.json"),
+        "Continual mBERT": Path("experiments/continual_mbert/log_history.json"),
+        "Sanskrit BERT scratch": Path("experiments/sanskrit_scratch/log_history.json"),
+    },
+    out_png="experiments/accuracy_comparison.png",
+)
+```
+
 
 
 
