@@ -1,4 +1,0 @@
----
-alwaysApply: true
----
-The core mission of this project is to research and develop a foundational language model for two historically related, low-resource languages: Sanskrit and Tibetan. We will be working with data from distinct sources, each with its own transliteration system. Our approach is systematic and comparative, involving a series of controlled experiments: we will train monolingual models from scratch, a single multilingual model to assess transfer learning potential, and benchmark these against a large, pre-trained model that is fine-tuned on our data. The ultimate goal is to evaluate all approaches on a downstream task and generate clear, data-driven insights into the most effective strategy for building language understanding capabilities for this specific linguistic domain.
