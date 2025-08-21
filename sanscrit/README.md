@@ -12,6 +12,36 @@ pip install -e .[dev]
 
 ---
 
+## Using Pre-trained Models from Hugging Face Hub
+
+The final, pre-trained models from this project are available on the Hugging Face Hub. You can use them directly in your projects with the `transformers` library without needing to run the training pipeline.
+
+- **[OMRIDRORI/sanskrit-bert-from-scratch](https://huggingface.co/OMRIDRORI/sanskrit-bert-from-scratch)**: A BERT model trained from scratch on Sanskrit.
+- **[OMRIDRORI/mbert-sanskrit-continual](https://huggingface.co/OMRIDRORI/mbert-sanskrit-continual)**: A multilingual BERT model continually trained on Sanskrit.
+
+### Example Usage
+
+Here is how you can use the models for a `fill-mask` task.
+
+```python
+from transformers import pipeline
+
+# 1. Use the model trained from scratch
+scratch_model = "OMRIDRORI/sanskrit-bert-from-scratch"
+unmasker_scratch = pipeline('fill-mask', model=scratch_model)
+result_scratch = unmasker_scratch("sa maharṣir uvāca anena [MASK] vacanena")
+print(f"Result from 'from-scratch' model: {result_scratch}")
+
+
+# 2. Use the continually trained model
+continual_model = "OMRIDRORI/mbert-sanskrit-continual"
+unmasker_continual = pipeline('fill-mask', model=continual_model)
+result_continual = unmasker_continual("sa maharṣir uvāca anena [MASK] vacanena")
+print(f"Result from 'continual' model: {result_continual}")
+```
+
+---
+
 ## End-to-End Pipeline
 
 The full pre-training pipeline consists of **three** independent steps. Each step is available both as a **Python API** _and_ a **CLI command**.
