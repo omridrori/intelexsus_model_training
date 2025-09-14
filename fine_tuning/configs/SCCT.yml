@@ -2,7 +2,8 @@ dataset_dir: data\downstream_tasks\DharmaBench\Tibetan\SCCT
 text_fields: [text]
 label_field: label
 models:
-  - OMRIDRORI/mbert-tibetan-continual-wylie-final
+  - google-bert/bert-base-multilingual-cased
+  - OMRIDRORI/mbert-tibetan-continual-unicode-240k
 convert_to_wylie: auto
 num_epochs: 3
 learning_rate: 2.0e-5
