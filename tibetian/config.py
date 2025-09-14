@@ -24,6 +24,9 @@ MODEL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 WANDB_PROJECT_NAME_CONTINUAL = "Tibetan-mBERT-Continual"
 
 # Default filenames inside PROCESSED_DIR
-BERT_READY_FILE = BASE_DIR.parent / "tibetan_bert_ready_512.txt"
+BERT_READY_FILE = BASE_DIR.parent / "tibetan_bert_ready_512_wylie.txt"
+
+
+
 
 

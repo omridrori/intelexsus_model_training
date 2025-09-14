@@ -1,0 +1,14 @@
+dataset_dir: data\downstream_tasks\DharmaBench\Tibetan\RCMT
+text_fields: [root, commentary]
+label_field: label
+model_name: OMRIDRORI/mbert-tibetan-continual-wylie-final
+convert_to_wylie: auto
+num_epochs: 3
+learning_rate: 2.0e-5
+batch_size: 8
+eval_steps: 50
+save_total_limit: 2
+files: [train.jsonl, test.jsonl]
+f1_average: weighted
+
+
