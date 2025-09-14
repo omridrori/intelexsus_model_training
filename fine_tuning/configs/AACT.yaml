@@ -3,6 +3,7 @@ text_fields: [text]
 label_field: label
 models:
   - OMRIDRORI/mbert-tibetan-continual-unicode-240k
+  - google-bert/bert-base-multilingual-cased
 convert_to_wylie: auto
 num_epochs: 3
 learning_rate: 2.0e-5

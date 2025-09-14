@@ -31,8 +31,8 @@ Create a single YAML file with the following keys:
 dataset_dir: data/downstream_tasks/Tibetan/tib_02_task
 text_fields: [text]          # one or more fields concatenated in order
 label_field: label           # target field name in JSONL
-model_name: OMRIDRORI/mbert-tibetan-continual-unicode-240k
-tokenizer_name: null         # optional, defaults to model_name
+models:
+  - OMRIDRORI/mbert-tibetan-continual-unicode-240k
 convert_to_wylie: auto       # auto | true | false
 num_epochs: 3
 learning_rate: 2.0e-5
@@ -41,15 +41,9 @@ eval_steps: 50
 save_total_limit: 2
 files: [train.jsonl, test.jsonl]
 f1_average: weighted         # F1 averaging method (only F1 is tracked)
-# Optionally compare multiple models in one run (each will be fine-tuned).
-# If you provide only 'models' and omit 'model_name', the first entry is used by default.
+# To compare multiple models, list them all under 'models'.
+# Each model always uses its own default tokenizer.
 # models:
-#   - OMRIDRORI/mbert-tibetan-continual-wylie-final
-#   - OMRIDRORI/mbert-tibetan-continual-unicode-240k
-#
-# Optionally provide a tokenizer per model (same order as models). If omitted, each
-# model will use its own tokenizer by default.
-# tokenizers:
 #   - OMRIDRORI/mbert-tibetan-continual-wylie-final
 #   - OMRIDRORI/mbert-tibetan-continual-unicode-240k
 ```

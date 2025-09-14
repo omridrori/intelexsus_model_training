@@ -85,8 +85,7 @@ class Config:
     text_fields: List[str]
     label_field: str
     model_name: str
-    tokenizer_name: Optional[str] = None
-    tokenizers: Optional[List[str]] = None  # optional: list parallel to models
+    # Tokenizers are not configurable; each model uses its own default tokenizer
     convert_to_wylie: str = "auto"  # one of: "auto", "true", "false"
     output_dir: Optional[str] = None
     files: Optional[List[str]] = None  # default [train.jsonl, test.jsonl]
@@ -112,25 +111,21 @@ def load_config(cfg_path: Path) -> Config:
     for key in required_base:
         if key not in raw:
             raise ValueError(f"Missing required config key: {key}")
-    if not raw.get("model_name") and not raw.get("models"):
-        raise ValueError("Provide either 'model_name' or a non-empty 'models' list in the config.")
+    if not raw.get("models") or not list(raw.get("models")):
+        raise ValueError("Config must include a non-empty 'models' list (even for a single model).")
 
     # Defaults
     files = raw.get("files") or ["train.jsonl", "test.jsonl"]
 
     # If model_name missing but models list exists, default to first model as model_name
-    default_model_name = raw.get("model_name")
-    if (not default_model_name) and raw.get("models"):
-        models_list_tmp = list(raw.get("models", []))
-        default_model_name = models_list_tmp[0] if models_list_tmp else None
+    models_list_tmp = list(raw.get("models", []))
+    default_model_name = models_list_tmp[0]
 
     cfg = Config(
         dataset_dir=raw["dataset_dir"],
         text_fields=list(raw["text_fields"]),
         label_field=raw["label_field"],
         model_name=default_model_name,
-        tokenizer_name=raw.get("tokenizer_name"),
-        tokenizers=list(raw.get("tokenizers", [])) if raw.get("tokenizers") is not None else None,
         convert_to_wylie=str(raw.get("convert_to_wylie", "auto")).lower(),
         output_dir=raw.get("output_dir"),
         files=files,
@@ -144,7 +139,7 @@ def load_config(cfg_path: Path) -> Config:
         metrics=list(raw.get("metrics", ["f1"])),
         main_metric=str(raw.get("main_metric", "f1")),
         f1_average=str(raw.get("f1_average", "weighted")),
-        models=list(raw.get("models", [])) if raw.get("models") is not None else None,
+        models=models_list_tmp,
     )
     return cfg
 
@@ -350,7 +345,15 @@ def main() -> None:
 
         torch.manual_seed(cfg.seed)
 
-        # Load and optionally convert dataset (once outside if heavy) — already loaded before
+        # Build tokenizer per model (default tokenizer of the model)
+        tokenizer_name_local = model_name if (cfg.models and len(cfg.models) > 0) else (cfg.tokenizer_name or model_name)
+        tokenizer_local = AutoTokenizer.from_pretrained(tokenizer_name_local)
+
+        # Tokenise dataset with this tokenizer
+        tokenise_fn_local = tokenise_builder(tokenizer_local, cfg, label2id)
+        tokenised_local = DatasetDict()
+        for split_ in dset.keys():
+            tokenised_local[split_] = dset[split_].map(tokenise_fn_local, remove_columns=dset[split_].column_names)
 
         model_local = AutoModelForSequenceClassification.from_pretrained(
             model_name,
@@ -393,10 +396,10 @@ def main() -> None:
         trainer_local = Trainer(
             model=model_local,
             args=training_args_local,
-            train_dataset=tokenised.get("train"),
-            eval_dataset=tokenised.get("test"),
-            tokenizer=tokenizer,
-            data_collator=DataCollatorWithPadding(tokenizer),
+            train_dataset=tokenised_local.get("train"),
+            eval_dataset=tokenised_local.get("test"),
+            tokenizer=tokenizer_local,
+            data_collator=DataCollatorWithPadding(tokenizer_local),
             compute_metrics=_compute_metrics_local,
         )
 
@@ -417,8 +420,8 @@ def main() -> None:
     # Load and optionally convert dataset once
     dset, conversion_report = maybe_convert_dataset_in_memory(cfg, results_dir)
     # Build tokenizer once (based on first model) and labels once
-    first_model_name = (cfg.models[0] if cfg.models else cfg.model_name)
-    tokenizer = AutoTokenizer.from_pretrained(cfg.tokenizer_name or first_model_name)
+    first_model_name = cfg.models[0]
+    tokenizer = AutoTokenizer.from_pretrained(first_model_name)
     tokenise_fn = tokenise_builder(tokenizer, cfg, {})  # placeholder mapping, will rebuild after label map
     label2id, id2label_list = build_label_mapping(dset, cfg)
     id2label = {i: lab for i, lab in enumerate(id2label_list)}
@@ -429,7 +432,7 @@ def main() -> None:
         tokenised[split] = dset[split].map(tokenise_fn, remove_columns=dset[split].column_names)
 
     # Run either single model or multiple models
-    model_names = cfg.models if cfg.models else [cfg.model_name]
+    model_names = cfg.models
     all_runs: List[Dict[str, Any]] = []
     for i, m in enumerate(model_names):
         print(f"=== Fine-tuning model: {m} ===")

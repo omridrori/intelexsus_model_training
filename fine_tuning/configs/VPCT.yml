@@ -1,7 +1,8 @@
 dataset_dir: data\downstream_tasks\DharmaBench\Tibetan\VPCT
 text_fields: [text]
 label_field: label
-model_name: OMRIDRORI/mbert-tibetan-continual-wylie-final
+models:
+  - OMRIDRORI/mbert-tibetan-continual-wylie-final
 convert_to_wylie: auto
 num_epochs: 3
 learning_rate: 2.0e-5
