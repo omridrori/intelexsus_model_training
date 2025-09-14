@@ -387,6 +387,7 @@ def main() -> None:
             report_to=[],
             save_total_limit=cfg.save_total_limit,
             seed=cfg.seed,
+            optim="adamw_torch",
         )
 
         trainer_local = Trainer(
